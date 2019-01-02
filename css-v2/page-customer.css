@@ -1,0 +1,203 @@
+#customer {
+
+}
+#customer .tab-title-wrap {
+  position: relative;
+  width: 100%;
+  height: 290px;
+  background-color: #7c4fe0;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/background-customer.png');
+  background-repeat: no-repeat;
+  background-size: 544px auto;
+  background-position: top 36px center;
+}
+#customer .tab-title-wrap .title {
+  width: 100%;
+  padding-top: 86px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+#customer .tab-title-wrap .subtitle {
+  width: 100%;
+  padding-top: 18px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+}
+#customer .tab-title-wrap .tab-title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  height: 63px;
+  line-height: 63px;
+}
+#customer .tab-title-wrap .tab-title .tab {
+  float: left;
+  width: 169px;
+  height: 100%;
+  text-align: center;
+  margin: 0 3px;
+  background-color: #a07bf4;
+  font-size: 18px;
+  color: #533791;
+  cursor: pointer;
+}
+#customer .tab-title-wrap .tab-title .tab.active {
+  background-color: #ffffff;
+  color: #333333;
+  font-weight: 500;
+}
+#customer .tab-content-wrap {
+
+}
+#customer .tab-content-wrap .tab-content {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: none;
+}
+#customer .tab-content-wrap .tab-content:after {
+  content: '';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+#customer .tab-content-wrap .tab-content.active {
+  display: block;
+}
+
+#customer .faq-wrap {
+  clear: both;
+  width: 100%;
+  margin-top: 33px;
+}
+#customer .faq-wrap .faq-item {
+  margin-bottom: 20px;
+  width: 100%;
+}
+#customer .faq-wrap .faq-item .title {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 56px 20px 30px;
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 500;
+  color: #333333;
+  background-color: #f7f7f7;
+  border: 1px solid #dadada;
+  cursor: pointer;
+}
+#customer .faq-wrap .faq-item .title:after {
+  position: absolute;
+  right: 17px;
+  top: 50%;
+  margin-top: -14px;
+  display: block;
+  content: '';
+  width: 28px;
+  height: 28px;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-arrow-top.png');
+  background-repeat: no-repeat;
+  background-size: 28px;
+  transform: rotate(180deg);
+  transition: transform 300ms;
+}
+#customer .faq-wrap .faq-item.active .title:after {
+  transform: rotate(0deg);
+}
+#customer .faq-wrap .faq-item .content {
+  display: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 1px solid #dadada;
+  margin-top: -1px;
+  font-size: 15px;
+  color: #3f3f3f;
+  line-height: 1.6em;
+}
+#customer .faq-wrap .faq-item.active .content {
+  display: block;
+}
+
+#customer .c-board {
+  margin-top: 40px;
+}
+
+#customer .form:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#customer .form h2 {
+  margin-top: 55px;
+}
+#customer .search-wrap .c-button {
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #3f3f3f;
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+  font-size: 19px;
+  float: right;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-search.png);
+  background-repeat: no-repeat;
+  background-size: 20px 21px;
+  background-position: left 23px center;
+  text-indent: 20px;
+}
+
+#customer .contact-wrap {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#customer .contact-wrap .contact-item {
+  width: 100%;
+  height: auto;
+  line-height: 1.5em;
+  padding: 15px 0;
+  font-size: 15px;
+  color: #464646;
+  border-bottom: 1px solid #e3e3e3;
+}
+#customer .contact-wrap .contact-item:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+#customer .contact-wrap .contact-item .title {
+  width: 27%;
+  box-sizing: border-box;
+  padding: 0 13px;
+  float: left;
+  font-weight: 500;
+}
+#customer .contact-wrap .contact-item .content {
+  width: 73%;
+  box-sizing: border-box;
+  padding: 0 13px;
+  float: left;
+}
+#customer .kakao.c-button {
+  height: 47px;
+  line-height: 47px;
+  float: right;
+  text-indent: 36px;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffe812;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-kakao.png');
+  background-repeat: no-repeat;
+  background-size: 27px auto;
+  background-position: left 16px center;
+}

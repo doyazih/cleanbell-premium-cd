@@ -1,0 +1,21 @@
+/* PC */
+@import url('./page-index.css');
+@import url('./page-search.css');
+@import url('./page-result.css');
+@import url('./page-company.css');
+@import url('./page-customer.css');
+@import url('./page-partner.css');
+@import url('./page-tip.css');
+@import url('./page-contact.css');
+@import url('./page-day.css');
+
+/* MOBILE */
+@import url('./page-index-mobile.css') screen and (max-width:640px);
+@import url('./page-search-mobile.css') screen and (max-width:640px);
+@import url('./page-result-mobile.css') screen and (max-width:640px);
+@import url('./page-company-mobile.css') screen and (max-width:640px);
+@import url('./page-customer-mobile.css') screen and (max-width:640px);
+@import url('./page-partner-mobile.css') screen and (max-width:640px);
+@import url('./page-tip-mobile.css') screen and (max-width:640px);
+@import url('./page-contact-mobile.css') screen and (max-width:640px);
+@import url('./page-day-mobile.css') screen and (max-width:640px);

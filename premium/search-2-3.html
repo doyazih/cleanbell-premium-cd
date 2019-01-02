@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>클린벨</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="/css/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="/css-v2/reset.css">
+  <link rel="stylesheet" href="/css-v2/jquery-ui.min.css">
+  <link rel="stylesheet" href="/css-v2/owl.carousel.css">
+  <link rel="stylesheet" href="/css-v2/default.css">
+  <link rel="stylesheet" href="/css-v2/sub.css">
+  <link rel="stylesheet" href="/css-v3/premium.css">
+  <link rel="stylesheet" href="/css-v3/premium-sub.css">
+  <script type="text/javascript" async="" src="/js/analytics.js"></script>
+  <script src="/js/jquery-1.11.3.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/js/default.js"></script>
+  <script type="text/javascript" src="/js/moment.latest.min.js"></script>
+  <script type="text/javascript" src="/js/moment.korean.js"></script>
+  <script type="text/javascript" src="/js/common.js"></script>
+  <script src="/js/loadingoverlay.min.js"></script>
+  <script src="/js/loadingoverlay_progress.min.js"></script>
+  <script src="/js/premium.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="./js/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109431815-1');
+    </script>
+  <script src="./f.txt"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1 id="logo">
+          <a href="http://cleanbell.co.kr/">
+            <img src="/images-v2/logo.png" alt="클린벨">
+          </a>
+        </h1>
+        <a href="http://cleanbell.co.kr/search-2#" class="btn_gnb blind_pc">
+          <img src="/images-v2/btn_gnb.png" alt="">
+        </a>
+        <nav id="nav">
+          <div class="blind_pc">
+            <a href="http://cleanbell.co.kr/search-2#" class="btn_gnb_close">
+              <img src="/images-v2/icon-close.png" alt="">
+            </a>
+          </div>
+          <ul id="gnb">
+            <li class="blind_pc">
+              <a href="http://www.cleanbell.co.kr/main">메인</a>
+            </li>
+            <li>
+              <a href="http://www.cleanbell.co.kr/search-1">청소업체 검색</a>
+            </li>
+            <li class="premiumDrop">
+              <a href="/premium/premium_main.html">프리미엄 청소</a>
+              <div class="premium-dropmenu">
+                <ul>
+                  <li><a href="/premium/premium_main.html">홈</a></li>
+                  <li><a href="/premium/premiumReview.html">고객 후기</a></li>
+                  <li><a href="/premium/price.html">가격표</a></li>
+                  <li><a href="/premium/cscenter-1.html">고객센터</a></li>
+                </ul>
+                <span>클린벨의 <strong class="colorYellow roboto">NO.1</strong> 청소해결사, <strong class="colorYellow">프리미엄 청소</strong></span>
+              </div>
+            </li>
+          </ul>
+          <p class="blind_pc gnb_copyright">Copyright © CLEANBELL</p>
+        </nav>
+        <a href="#none" class="showDropmenu"></a>
+      </div>
+    </header>
+
+
+    <article id="container">
+      <div class="inner">
+        <section class="company_search">
+          <ul class="search_tab">
+            <li class="pass"><strong>01</strong> 날짜 선택</li>
+            <li class="active"><strong>02</strong> 청소정보 입력</li>
+            <li><strong>03</strong> 개인정보 입력</li>
+            <li><strong>04</strong> 팀 선택</li>
+          </ul>
+          <div class="search_apartment">
+            <dl class="first">
+              <dt>빌라/주택/원룸/오피스텔</dt>
+              <dd class="relative">
+                <span class="average_text head">분양평수</span>
+                <input type="tel" value="" id="average">
+                <span class="average_text">평</span>
+              </dd>
+              <dd class="relative">
+                <input type="tel" value="" id="average">
+                <span class="average_text">m<sup>2</sup></span>
+              </dd>
+            </dl>
+            <dl class="second structure_detail">
+              <ul>
+                <li>
+                  <dl>
+                    <dt>방</dt>
+                    <dd>
+                      <select id="my_room">
+                        <option value="">선택하세요</option>
+                        <option value="1개">1개</option>
+                        <option value="2개">2개</option>
+                        <option value="3개">3개</option>
+                        <option value="4개">4개</option>
+                        <option value="5개 이상">5개 이상</option>
+                      </select>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>화장실</dt>
+                    <dd>
+                      <select id="my_room">
+                        <option value="">선택하세요</option>
+                        <option value="1개">1개</option>
+                        <option value="2개">2개</option>
+                        <option value="3개">3개</option>
+                        <option value="4개">4개</option>
+                        <option value="5개 이상">5개 이상</option>
+                      </select>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>베란다</dt>
+                    <dd>
+                      <select id="my_room">
+                        <option value="">선택하세요</option>
+                        <option value="1개">1개</option>
+                        <option value="2개">2개</option>
+                        <option value="3개">3개</option>
+                        <option value="4개">4개</option>
+                        <option value="5개 이상">5개 이상</option>
+                      </select>
+                    </dd>
+                  </dl>
+                </li>
+              </ul>
+            </dl>
+          </div>
+          <div class="check_structure">
+            <dl class="first">
+              <dt>구조 선택</dt>
+              <dd class="relative">
+                <input type="checkbox" value="" id="checkStruct01">
+                <label for="checkStruct01">일반형</label>
+                <input type="checkbox" value="" id="checkStruct02">
+                <label for="checkStruct02">복층형</label>
+              </dd>
+            </dl>
+          </div>
+          <div class="check_addService">
+            <dl class="first">
+              <dt>부가서비스 선택</dt>
+              <dd class="relative">
+                <input type="checkbox" value="" id="checkaddService01">
+                <label for="checkaddService01">새집증후군 (피톤치드)</label>
+                <input type="checkbox" value="" id="checkaddService02" class="addServiceModal">
+                <label for="checkaddService02">줄눈시공</label>
+                <div class="checkModal" id="zulnoonModal">
+                  <div class="modalContent">
+                    <div>
+                      <img src="/images-v3/itemBoxIcon80.png" alt="">
+                      <p>줄눈은 <strong class="border">화장실바닥 2개+현관바닥 1개</strong> 시공을 기본으로 하며<span class="textblock"></span>가격은 <strong>280,000원</strong>이 적용됩니다.</p>
+                      <p>시공 장소 변경은 예약 확정 후<span class="textblock"></span>상담원과 통화 시 변경 가능합니다.</p>
+                      <p>감사합니다.</p>
+                    </div>
+                    <a href="#none" class="closeModal">확인</a>
+                  </div>
+                </div>
+              </dd>
+            </dl>
+            <dl class="second">
+              <ul>
+                <li>
+                  <label for="">청소비용</label>
+                  <input type="tel" value="387,000" id="">
+                  <span>원</span>
+                </li>
+                <li>
+                  <label for="">부가서비스</label>
+                  <input type="tel" value="75,000" id="">
+                  <span>원</span>
+                </li>
+              </ul>
+              <div>
+                <label for="">총 견적금액</label>
+                <input type="tel" value="462,000">
+                <span>원</span>
+              </div>
+            </dl>
+          </div>
+          <div class="search_btn">
+            <a id="btnPrevious" class="btn_prev" style="cursor:pointer">이전단계</a>
+            <a id="btnNext" class="btn_next" style="cursor:pointer">다음단계</a>
+          </div>
+        </section>
+      </div>
+      <div class="cleaning_tip">
+        <div class="inner">
+          <h2>클린벨 청소TIP</h2>
+          <ul>
+            <li>청소날짜와 이사날짜가 같아 최소 6시간 이상의 공실상태 청소시간 확보가 어려운 경우 추가요금이 발생합니다.</li>
+            <li class="theight">현재 살고 있는 집을 청소하거나 이삿짐이 청소날짜보다 먼저 들어오는 경우(이사날짜가 청소날짜보다 빠른 경우) 거주청소로 분류되어 서비스를 진행하지 않습니다.</li>
+            <li>다른 작업(도배, 장판, 인테리어, 가구설치 등)과 함께 병행하여 청소를 진행하지 않습니다.일정이 겹치지 않도록 스케줄을 조정하는 것이 중요합니다.</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+
+
+    <script type="text/javascript" src="/js/premium-search-2.js"></script>
+
+
+    <footer id="footer">
+      <div class="about">
+        <ul>
+          <li>
+            <a href="http://www.cleanbell.co.kr/privacy-notice" target="_blank">개인정보취급방침</a>
+          </li>
+          <li>
+            <a href="http://www.cleanbell.co.kr/user-agreement" target="_blank">이용약관</a>
+          </li>
+          <li>
+            <a href="http://www.cleanbell.co.kr/partner">클린벨 입점문의</a>
+          </li>
+        </ul>
+      </div>
+      <div class="company_info">
+        <p>* 클린벨은 통신판매중개자로서 청소서비스의 주거래 당사자가 아니며, 청소서비스의 분쟁과 계약사항은 회원사와 당사자간에 있습니다. </p>
+        <div>
+          <div class="left">
+            <strong>클린벨 고객센터<br><span>1600-1701</span></strong>
+            <p><strong>영업시간 :</strong> 09:00 ~ 18:00 <br class="blind_m"> (공휴일휴무)</p>
+            <ul>
+              <li><a href="#"><img src="/images-v2/foot_facebook.png" alt=""></a></li>
+              <li><a href="#"><img src="/images-v2/foot_blog.png" alt=""></a></li>
+              <li><a href="#"><img src="/images-v2/foot_insta.png" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <h2>클린벨 | ㈜ 컨트롤에프</h2>
+            <p>
+              <strong>대표 :</strong> 최광근 &nbsp;|&nbsp; <strong>사업자등록번호 :</strong> 585-86-00882 <span class="blind_m">&nbsp;|&nbsp;</span> <br class="blind_pc"><strong>통신판매업번호 :</strong> 2017-인천계양-0583호
+              <br> <strong>메일 :</strong> help@cleanbell.co.kr<br><strong>팩스 :</strong> 070-5165-8603
+            </p>
+            <p></p>
+            <p class="copyright">Copyright © CLEANBELL </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--Adpic script-->
+    <script type="text/javascript" src="/js/apTracker.v3.js"></script>
+
+    <!--10Ping script -->
+    <script src="/js/tenping.cpa.V2.min.js"></script>
+
+    <!-- Google Code for Remarketing -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 827473490;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="./f(1).txt">
+    </script><iframe name="google_cookie_match_frame" title="Google cookie match frame" width="1" height="1" src="./pixel.html" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" style="display:none"
+      scrolling="no"></iframe>
+    <noscript>
+      <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/827473490/?guid=ON&amp;script=0" />
+      </div>
+    </noscript>
+  </div>
+
+
+</body>
+
+</html>

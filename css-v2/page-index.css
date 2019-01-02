@@ -1,0 +1,404 @@
+#index {
+  width: 100%;
+}
+#index .landing {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  box-sizing: border-box;
+  padding-top: 127px;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/background-index-landing.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 420px;
+  background-position: center;
+  color: #000000;
+}
+#index .landing > .subtitle {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+#index .landing > .title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+#index .landing > .search {
+  display: block;
+  width: 260px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 8px;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-search.png);
+  background-repeat: no-repeat;
+  background-size: 24px 25px;
+  background-position: left 28px center;
+  background-color: #6130cf;
+  border: solid 1px #381091;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  text-indent: 80px;
+}
+#index .landing > .numbers {
+  position: absolute;
+  top: 380px;
+  width: 100%;
+  height: 120px;
+  z-index: 100;
+}
+#index .landing > .numbers .inner {
+  width: 650px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px 0 rgba(156, 156, 156, 0.5);
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+#index .landing > .numbers .inner > div {
+  width: 33.333%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  padding-top: 12px;
+  border-right: 1px solid #e6e6e6;
+}
+#index .landing > .numbers .inner > div:last-child {
+  border-right: 0;
+}
+#index .landing > .numbers .inner > div .title {
+  height: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #666666;
+  margin-bottom: 10px;
+}
+#index .landing > .numbers .inner > div .content {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+}
+
+#index .introduce {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 840px;
+  background-color: #ffffff;
+}
+#index .introduce .image {
+  position: absolute;
+  right: 50%;
+  top: 0;
+  width: 425px;
+  height: 350px;
+  margin-top: 250px;
+  margin-right: 24px;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/background-index.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 408px auto;
+}
+#index .introduce .content {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 360px;
+  margin-top: 165px;
+  margin-left: 24px;
+}
+#index .introduce .content .row {
+  margin-bottom: 50px;
+}
+#index .introduce .content .row .title {
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6131ce;
+  margin-bottom: 14px;
+}
+#index .introduce .content .row .description {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  color: #666666;
+}
+
+
+#index .service-title {
+  margin-bottom: 30px;
+}
+#index .service {
+  width: 100%;
+  height: 250px;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  padding: 50px 0;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#index .service .c-inner > div {
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 76px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 2px;
+  background-size: auto 60px;
+  background-repeat: no-repeat;
+  background-position: top left 51px;
+  float: left;
+  border-right: 1px solid #d9d9d9;
+}
+#index .service .c-inner > div:nth-child(1) {
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-index-step-1.png);
+}
+#index .service .c-inner > div:nth-child(2) {
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-index-step-2.png);
+}
+#index .service .c-inner > div:nth-child(3) {
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-index-step-3.png);
+}
+#index .service .c-inner > div:nth-child(4) {
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-index-step-4.png);
+}
+#index .service .c-inner > div:last-child {
+  border-right: 0;
+}
+#index .service .c-inner > div .title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.06;
+  color: #555555;
+  margin-bottom: 7px;
+}
+#index .service .c-inner > div .description {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  color: #8a8a8a;
+}
+
+#index .customer-title {
+  margin-bottom: 30px;
+}
+#index .customer {
+  margin-bottom: 30px;
+}
+#index .customer .card {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 44px;
+  margin-bottom: 44px;
+}
+#index .customer .card:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#index .customer .card .thumb {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+#index .customer .card.left .thumb {
+  float: left;
+}
+#index .customer .card.right .thumb {
+  float: right;
+}
+#index .customer .card .thumb img {
+  width: 100%;
+}
+#index .customer .card .balloon {
+  position: relative;
+  width: 310px;
+  height: auto;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 5px rgba(211, 211, 211, 0.5);
+}
+#index .customer .card.left .balloon {
+  margin-left: 40px;
+  padding-left: 24px;
+  float: left;
+}
+#index .customer .card.right .balloon {
+  margin-right: 40px;
+  padding-right: 24px;
+  float: right;
+}
+#index .customer .card .balloon:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  width: 18px;
+  height: 18px;
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+}
+#index .customer .card.left .balloon:before {
+  left: -2px;
+}
+#index .customer .card.right .balloon:before {
+  right: -2px;
+}
+#index .customer .card .balloon .paragraph {
+  position: relative;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.33;
+  color: #353535;
+  z-index: 10;
+  margin-bottom: 12px;
+}
+#index .customer .card.left .balloon .paragraph {
+  text-align: left;
+}
+#index .customer .card.right .balloon .paragraph {
+  text-align: right;
+}
+
+#index .customer .card .balloon .company {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  color: #8a8a8a;
+}
+#index .customer .card .balloon .date {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  color: #8a8a8a;
+}
+#index .customer .card.right .balloon .date {
+  right: 24px;
+}
+#index .customer .more {
+  text-align: right;
+  font-size: 19px;
+  font-weight: 300;
+  color: #666666;
+  text-decoration: underline;
+}
+
+#index .review {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 60px 0;
+  background-color: #f8f8f8;
+}
+#index .review .c-inner {
+  box-sizing: border-box;
+  padding: 0 70px;
+}
+#index .review .c-inner:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+#index .review .card {
+  width: 284px;
+  height: 410px;
+  margin: 0 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: solid 1px #dfdfdf;
+  float: left;
+}
+#index .review .card .thumb {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#index .review .card .thumb .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 140px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, rgba(65, 65, 65, 0), #000000);
+  background-image: linear-gradient(to bottom, rgba(65, 65, 65, 0), var(--black-000));
+}
+#index .review .card .thumb .content .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+#index .review .card .thumb .content .title .company {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+#index .review .card .quote {
+  width: 100%;
+  height: 158px;
+  box-sizing: border-box;
+  padding: 30px 24px 0 54px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: left;
+  color: #8f8f8f;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-quote.png');
+  background-repeat: no-repeat;
+  background-size: 23px 21px;
+  background-position: left 15px top 17px;
+}
+
+#index .button-wrap {
+  font-size: 0;
+  width: 100%;
+  height: 210px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+#index .button-wrap a {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  line-height: 58px;
+  box-sizing: border-box;
+  margin: 0 13px;
+  border-radius: 11px;
+  background-color: #3f3f3f;
+  border: solid 1px #000000;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}

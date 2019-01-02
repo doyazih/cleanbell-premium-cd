@@ -1,0 +1,226 @@
+#index {
+  width: 100%;
+}
+#index .landing {
+  height: 230px;
+  padding-top: 80px;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/background-index-landing.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 230px;
+  background-position: center;
+  color: #000000;
+}
+#index .landing > .subtitle {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+#index .landing > .title {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+#index .landing > .search {
+  width: 156px;
+  height: 46px;
+  line-height: 46px;
+  background-size: 12px 13px;
+  background-position: left 19px center;
+  font-size: 13px;
+  text-indent: 40px;
+}
+#index .landing > .numbers {
+  top: 210px;
+  height: 67px;
+}
+#index .landing > .numbers .inner {
+  width: 90%;
+  padding: 11px 0;
+}
+#index .landing > .numbers .inner > div {
+  text-align: center;
+  padding-top: 6px;
+}
+#index .landing > .numbers .inner > div .title {
+  height: 12px;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+#index .landing > .numbers .inner > div .content {
+  font-size: 14px;
+}
+
+#index .introduce {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: inherit;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+#index .introduce .image {
+  position: relative;
+  right: inherit;
+  top: inherit;
+  width: 227px;
+  height: 177px;
+  margin-top: 76px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: contain;
+}
+#index .introduce .content {
+  position: relative;
+  left: inherit;
+  top: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin: 0;
+}
+#index .introduce .content .row {
+  margin-bottom: 25px;
+}
+#index .introduce .content .row .title {
+  line-height: 16px;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+#index .introduce .content .row .description {
+  font-size: 13px;
+}
+
+
+#index .service-title {
+  margin-bottom: 13px;
+}
+#index .service {
+  height: auto;
+  padding: 11px 0;
+  margin-bottom: 34px;
+}
+#index .service:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#index .service .c-inner.padding {
+  padding: 0;
+}
+#index .service .c-inner > div {
+  width: 50%;
+  height: auto;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 11px;
+  background-size: auto 40px;
+  background-position: top 10px center;
+}
+#index .service .c-inner > div:nth-child(2n) {
+  border-right: 0;
+}
+#index .service .c-inner > div:nth-child(3) {
+  clear: both;
+}
+#index .service .c-inner > div .title {
+  font-size: 13px;
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+#index .service .c-inner > div .description {
+  font-size: 12px;
+}
+#index .customer .card {
+  padding: 0;
+  margin-bottom: 44px;
+}
+#index .customer .card .thumb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+#index .customer .card.left .thumb {
+  float: left;
+}
+#index .customer .card.right .thumb {
+  float: right;
+}
+#index .customer .card .thumb img {
+  width: 100%;
+}
+#index .customer .card .balloon {
+  position: relative;
+  width: 210px;
+  height: auto;
+  padding: 13px;
+}
+#index .customer .card.left .balloon {
+  margin-left: 16px;
+  padding-left: 13px;
+}
+#index .customer .card.right .balloon {
+  margin-right: 16px;
+  padding-right: 13px;
+}
+#index .customer .card .balloon .paragraph {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+#index .customer .card .balloon .date {
+  bottom: 13px;
+  right: 13px;
+}
+#index .customer .card.right .balloon .date {
+  right: 13px;
+}
+#index .customer .more {
+  font-size: 15px;
+  color: #666666;
+}
+
+#index .review {
+  padding: 24px;
+}
+#index .review .c-inner {
+  padding: 0;
+}
+#index .review .card {
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+  float: inherit;
+}
+#index .review .card .thumb {
+  height: 200px;
+}
+#index .review .card .thumb .content .title {
+  padding: 16px;
+  font-size: 15px;
+}
+#index .review .card .thumb .content .title .company {
+  margin-top: 5px;
+  font-size: 13px;
+}
+#index .review .card .quote {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px 30px 16px 54px;
+  font-size: 13px;
+}
+
+#index .button-wrap {
+  height: auto;
+  padding-top: 20px;
+}
+#index .button-wrap a {
+  display: inline-block;
+  width: 44%;
+  margin: 0 0 4% 0;
+  font-size: 13px;
+}
+#index .button-wrap a:nth-child(2n) {
+  margin-left: 4%;
+}

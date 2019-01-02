@@ -1,0 +1,275 @@
+#day {}
+
+#day .title-wrap {
+  width: 100%;
+  height: 288px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #7c4fe0;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/background-day.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 827px auto;
+}
+#day .title-wrap .title {
+  padding-top: 94px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#day .title-wrap .subtitle {
+  padding-top: 18px;
+  font-size: 24px;
+}
+#day .message {
+  font-weight: 500;
+  position: relative;
+  margin-top: 128px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+#day .message:before {
+  content: '';
+  display: block;
+  position: relative;
+  top: -28px;
+  left: 50%;
+  margin-left: -15px;
+  width: 30px;
+  height:  3px;
+  background-color: #6130cf;
+}
+
+#day .calendar-wrap {
+  margin-top: 100px;
+}
+#day .calendar-wrap .calendar-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+#day .calendar-wrap .calendar-inner:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#day .calendar-wrap .calendar-inner .calendar {
+  height: 502px;
+  width: 298px;
+  float: left;
+}
+#day .calendar-wrap .calendar-inner .content {
+  position: absolute;
+  left: 300px;
+  top: 0;
+  width: 660px;
+  height: 100%;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  padding: 40px;
+  border-top: solid 1px #dcdcdc;
+  border-right: solid 1px #dcdcdc;
+  border-bottom: solid 1px #dcdcdc;
+}
+#day .calendar-wrap .calendar-inner .content .ymd {
+  font-size: 28px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+#day .calendar-wrap .calendar-inner .content .day {
+  font-size: 18px;
+  color: #8f8f8f;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+#day .calendar-wrap .calendar-inner .content .description {
+  font-size: 15px;
+  color: #666666;
+  line-height: 2em;
+}
+#day .calendar-wrap .calendar-inner .content .description b {
+  font-weight: 700;
+}
+#day .calendar-wrap .calendar-inner .content .search {
+  font-size: 15px;
+  color: #3f2da7;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+#day .calendar-wrap .info {
+  margin-top: 18px;
+}
+#day .calendar-wrap .info > div {
+  float: left;
+  position: relative;
+  padding: 0 23px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+#day .calendar-wrap .info > div:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+#day .calendar-wrap .info > .son:before {
+  background-color: #3f2da7;
+}
+#day .calendar-wrap .info > .son {
+  color: #4c2a99;
+}
+#day .calendar-wrap .info > .selected:before {
+  background-color: #e68f28;
+}
+#day .calendar-wrap .info > .selected {
+  color: #e68f28;
+}
+
+#day .information {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fafafa;
+}
+#day .information .c-inner:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#day .information .item {
+  width: 33.333%;
+  height: 160px;
+  float: left;
+  box-sizing: border-box;
+  padding: 80px 70px 0;
+  color: #3f3f3f;
+  border-right: solid 1px #e3e3e3;
+  text-align: center;
+  word-break: keep-all;
+  background-repeat: no-repeat;
+}
+#day .information .item:nth-child(1) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-stopwatch.png');
+  background-size: 60px auto;
+  background-position: top center;
+}
+#day .information .item:nth-child(2) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-card.png');
+  background-size: 65px auto;
+  background-position: top 8px center;
+}
+#day .information .item:nth-child(3) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-idea.png');
+  background-size: 54px auto;
+  background-position: top center;
+  border-right: 0;
+}
+#day .information .item .title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+#day .information .item .description {
+  font-size: 13px;
+  line-height: 1.6em;
+}
+
+#day .weather-selector {
+  height: 60px;
+  position: relative;
+  margin-bottom: 30px;
+}
+#day .weather-selector .c-select {
+  width: 160px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#day .weather {
+  width: 100%;
+  height: 305px;
+  margin-bottom: 100px;
+}
+#day .weather .weather-item {
+  position: relative;
+  float: left;
+  width: 128px;
+  height: 305px;
+  color: #ffffff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 45px auto;
+  background-position: center;
+}
+#day .weather .weather-item:nth-child(1) {
+  background-color: #7c4fe0;
+}
+#day .weather .weather-item:nth-child(2) {
+  background-color: #784ade;
+}
+#day .weather .weather-item:nth-child(3) {
+  background-color: #7447d9;
+}
+#day .weather .weather-item:nth-child(4) {
+  background-color: #7144d5;
+}
+#day .weather .weather-item:nth-child(5) {
+  background-color: #6f41d6;
+}
+#day .weather .weather-item:nth-child(6) {
+  background-color: #6c3fd2;
+}
+#day .weather .weather-item:nth-child(7) {
+  background-color: #693cce;
+}
+#day .weather .weather-item:nth-child(8) {
+  background-color: #6539c7;
+}
+#day .weather .weather-item.sun {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-sun.png');
+}
+#day .weather .weather-item.clound-sun {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-cloud-sun.png');
+}
+#day .weather .weather-item.rain {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-rain.png');
+}
+#day .weather .weather-item.fog {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-fog.png');
+}
+#day .weather .weather-item.snow {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-snow.png');
+}
+#day .weather .weather-item.rain-moon {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-weather-rain-moon.png');
+}
+#day .weather .weather-item .region {
+  font-size: 33px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+#day .weather .weather-item .day {
+  font-size: 18px;
+  padding-top: 42px;
+  padding-bottom: 10px;
+}
+#day .weather .weather-item .date {
+  font-size: 13px;
+  opacity: 0.6;
+}
+#day .weather .weather-item .temperature {
+  font-size: 16px;
+  padding-top: 140px;
+}

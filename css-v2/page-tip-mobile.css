@@ -1,0 +1,62 @@
+#tip {}
+#tip .title-wrap {
+  height: 200px;
+  background-size: 350px auto;
+}
+#tip .title-wrap .subtitle {
+  padding-top: 70px;
+  font-size: 15px;
+}
+#tip .title-wrap .title {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-break: keep-all;
+  line-height: 1.4em;
+  font-size: 22px;
+}
+
+#tip .tip-list {
+  background-color: #f7f7f7;
+  padding: 26px 0 100px 0;
+}
+#tip .tip-list .tip-item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#tip .tip-list .tip-item .title {
+  font-size: 15px;
+}
+#tip .tip-list .tip-item .title:after {
+  position: absolute;
+  bottom: -15px;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #6130cf;
+}
+#tip .tip-list .tip-item.left .title:after {
+  left: 0;
+}
+#tip .tip-list .tip-item.right .title:after {
+  right: 0;
+}
+#tip .tip-list .tip-item .description {
+  font-size: 13px;
+  line-height: 1.6em;
+  color: #666666;
+  margin-top: 34px;
+  margin-bottom: 25px;
+  word-break: keep-all;
+}
+#tip .tip-list .tip-item .description div {
+  margin-bottom: 10px;
+}
+#tip .tip-list .tip-item img {
+  width: 100%;
+}

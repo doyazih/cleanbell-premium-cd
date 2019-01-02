@@ -1,0 +1,465 @@
+#wrap {
+  width: 100%;
+  min-width: 1024px;
+  height: auto;
+  font-weight: 300;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  z-index: 9000;
+  background-color: rgba(255,255,255,0);
+  transition: background-color 300ms;
+}
+#header.scrolled {
+  background-color: rgba(255,255,255,1);
+  border-bottom: 1px solid #e3e3e3;
+}
+#header .logo {
+  position: absolute;
+  top: 24px;
+  left: 38px;
+  height: 35px;
+}
+#header .navigation {
+  position: absolute;
+  top: 0;
+  right: 28px;
+}
+#header .navigation a {
+  float: left;
+  display: block;
+  margin: 0 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#footer {
+  width: 100%;
+}
+#footer .about {
+  width: 100%;
+  height: 40px;
+  background-color: #f8f8f8;
+  border-top: solid 1px #e1e1e1;
+  border-bottom: solid 1px #e1e1e1;
+}
+#footer .about ul {
+  width: 600px;
+  height: 26px;
+  line-height: 26px;
+  margin: 7px auto;
+  padding: 0;
+  list-style: none;
+}
+#footer .about ul li {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #e7e7e7;
+}
+#footer .about ul li:last-child {
+  border-right: 0;
+}
+#footer .about ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+#footer .copyright {
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+}
+#footer .copyright .disclaimer {
+  width: 100%;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 28px;
+}
+#footer .copyright .info {
+  position: relative;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: left;
+  color: #626262;
+  box-sizing: border-box;
+  /*padding-left: 130px;*/
+  margin-left: 10px;
+}
+#footer .copyright .info .company,
+#footer .copyright .info .contact .call {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#footer .copyright .info .contact {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 160px;
+  text-align: left;
+}
+
+.c-inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+.c-inner.padding {
+  box-sizing: border-box;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.c-inner.padding-wide {
+  box-sizing: border-box;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.relative {
+  position: relative;
+}
+.font-square {
+  font-family: 'NanumSquare';
+}
+.purple {
+  color: #6130cf;
+}
+.yellow {
+  color: #ffbf10;
+}
+.c-button {
+  display: block;
+  height: 60px;
+  line-height: 58px;
+  text-align: center;
+  padding: 0 20px;
+  text-decoration: none;
+  border-radius: 11px;
+  font-size: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+.c-label {
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #6130cf;
+  color: #6130cf;
+  background-color: transparent;
+  font-size: 14px;
+}
+.c-label.blue {
+  border: 1px solid #3b1aff;
+  color: #ffffff;
+  background-color: #3b1aff;
+}
+.c-label.orange {
+  border: 1px solid #ff9010;
+  color: #ffffff;
+  background-color: #ff9010;
+}
+.c-label.bordered-yellow {
+  height: auto;
+  line-height: 22px;
+  padding: 4px 20px;
+  border: 0;
+  border-left: 4px solid #ffbf10;
+  color: #664e0d;
+  background-color: #ffe172;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.header-padding {
+  padding-top: 80px;
+}
+
+.only-mobile {
+  display: none;
+}
+.only-pc {
+  display: block;
+}
+
+select.c-select {
+  width: 100%;
+  height: 60px;
+  line-height: 58px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #979797;
+  color: #3f3f3f;
+  font-size: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-arrow-down.png');
+  background-position: right 15px center;
+  background-size: 10px auto;
+  background-repeat: no-repeat;
+}
+select.c-select::-ms-expand {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity:0;
+}
+select.c-select.narrow {
+  max-width: 380px;
+}
+input.c-input {
+  width: 100%;
+  max-width: 380px;
+  height: 60px;
+  line-height: 59px;
+  box-sizing: border-box;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #979797;
+  color: #3f3f3f;
+  font-size: 15px;
+  margin-bottom: 15px;
+  outline: none;
+}
+input.c-input.wide {
+  max-width: inherit;
+}
+.strong {
+  font-weight: 500;
+}
+
+table.c-board {
+  width: 100%;
+  border: 0;
+}
+table.c-board .center {
+  text-align: center;
+}
+table.c-board th {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333333;
+  padding: 16px 15px;
+  border-bottom: 1px solid #8f8f8f;
+}
+table.c-board .content {
+  display: none;
+}
+table.c-board .content.active {
+  display: table-row;
+}
+table.c-board td {
+  font-size: 13px;
+  color: #666666;
+  padding: 16px 15px;
+  line-height: 1.5em;
+  border-bottom: 1px solid #e3e3e3;
+  vertical-align: middle;
+}
+table.c-board td .content {
+  margin-top: 10px;
+}
+table.c-board .narrow {
+  width: 50px;
+}
+table.c-board .medium {
+  width: 80px;
+}
+
+@media screen and (max-width: 640px) {
+  .only-mobile {
+    display: block;
+  }
+  .only-pc {
+    display: none;
+  }
+  select.c-select {
+    height: 45px;
+    line-height: 43px;
+    padding: 0 28px 0 14px;
+    font-size: 13px;
+    outline: none;
+  }
+  input.c-input {
+    height: 45px;
+    line-height: 43px;
+    font-size: 13px;
+  }
+
+  #wrap {
+    width: 100%;
+    min-width: inherit;
+    height: auto;
+  }
+  #header {
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+  }
+  #header .logo {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    width: auto;
+    height: 22px;
+    margin: 16px auto 0 auto;
+  }
+  #header .hamburger {
+    position: absolute;
+    top: 19px;
+    right: 17px;
+    width: 20px;
+    height: 14px;
+    background-image: url('https://cleanbell.blob.core.windows.net/images/icon-hamburger.png');
+    background-repeat: no-repeat;
+    background-size: 20px 14px;
+    background-position: center;
+  }
+  #header .navigation {
+    position: fixed;
+    left: inherit;
+    right: -100%;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 20px 0 #8f8f8f;
+    transition: right 500ms;
+  }
+  #header .navigation.active {
+    right: 0;
+  }
+  #header .navigation:before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 52px;
+    background-color: #6130cf;
+    margin-bottom: 26px;
+  }
+  #header .navigation .close {
+    position: absolute;
+    top: 19px;
+    right: 13px;
+    width: 14px;
+    height: 14px;
+    background-image: url('https://cleanbell.blob.core.windows.net/images/icon-close.png');
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: center;
+  }
+  #header .navigation a {
+    float: inherit;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: #666666;
+    background-color: #ffffff;
+  }
+  #header .navigation .copy {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #626262;
+  }
+  #footer .about ul {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+  }
+  #footer .about ul li {
+    display: inline-block;
+    width: 33.333%;
+    float: inherit;
+    box-sizing: border-box;
+  }
+  #footer .about ul li a {
+    font-size: 13px;
+  }
+  #footer .copyright {
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #footer .copyright .disclaimer {
+    font-size: 12px;
+  }
+  #footer .copyright .info {
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 40px;
+    background: none;
+  }
+  #footer .copyright .info .contact {
+    position: relative;
+    right: inherit;
+    top: inherit;
+    width: auto;
+    margin-bottom: 24px;
+  }
+  .c-inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .c-inner.padding,
+  .c-inner.padding-wide {
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .header-padding {
+    padding-top: 52px;
+  }
+  h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  table.c-board th {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;
+    padding: 16px 6px;
+    border-bottom: 1px solid #8f8f8f;
+  }
+  table.c-board td {
+    font-size: 13px;
+    color: #666666;
+    padding: 16px 6px;
+    border-bottom: 1px solid #e3e3e3;
+    vertical-align: middle;
+  }
+  table.c-board .narrow {
+    width: 40px;
+  }
+  table.c-board .medium {
+    width: 50px;
+  }
+}

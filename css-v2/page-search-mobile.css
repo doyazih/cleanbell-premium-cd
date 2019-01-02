@@ -1,0 +1,106 @@
+#search .search-step {
+  height: 36px;
+  line-height: 36px;
+}
+#search .search-step .step {
+  width: 33.333%;
+  font-size: 13px;
+}
+#search .search-step .step.active {
+  border-bottom: 3px solid #6130cf;
+}
+
+#search .step-unit {
+  padding-top: 36px;
+}
+#search .step-1 .date .date-clean,
+#search .step-1 .date .date-move {
+  width: 100%;
+  box-sizing: border-box;
+  float: inherit;
+  margin-bottom: 36px;
+}
+#search .step-1 .date .date-clean {
+  padding-right: 0;
+}
+#search .step-1 .date .date-move {
+  padding-left: 0;
+}
+#search .step-1 .date .calendar {
+  margin-top: 16px;
+}
+
+#search .tip-wrap {
+  margin-top: 60px;
+}
+#search .tip-wrap > .c-inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#search .tip-wrap .title {
+  top: -9px;
+  left: 20px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+#search .tip-wrap ul {
+  list-style: disc;
+}
+#search .tip-wrap ul li {
+  font-size: 13px;
+}
+
+#search .button-wrap {
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+#search .button-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+#search .button-wrap .c-button.prev {
+  float: left;
+  width: 100px;
+  background-color: #ffffff;
+  border: 1px solid #979797;
+  color: #666666;
+}
+#search .button-wrap .c-button.next {
+  float: right;
+  width: 200px;
+  background-color: #3f3f3f;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+#search .select-wrap .select-unit {
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+#search .select-wrap .select-unit h2 {
+  margin-bottom: 20px;
+}
+
+#search .step-2 .select-unit .unit {
+  position: relative;
+}
+#search .step-2 .select-unit .unit .c-input {
+  padding-right: 30px;
+}
+#search .step-2 .select-unit .unit:after {
+  content: '평';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+#search .step-3 .input-unit {
+  font-size: 13px;
+}
+#search .step-3 .input-unit .description {
+  font-size: 13px;
+}

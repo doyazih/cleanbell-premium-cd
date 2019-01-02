@@ -1,0 +1,188 @@
+#result {}
+
+#result .filter-wrap {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+#result .filter-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#result .filter-wrap h2 {
+  float: left;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+#result .filter-wrap div.title {
+  display: block;
+  float: left;
+  line-height: 25px;
+  margin-left: 15px;
+  font-size: 13px;
+  color: #8f8f8f;
+  font-weight: 300;
+}
+#result .filter-wrap div.title:after {
+  content: '';
+  display: block;
+  width: 100%;
+  clear: both;
+  visibility: hidden;
+}
+#result .filter-wrap form > div {
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+}
+#result .filter-wrap .filter-item {
+  display: inline-block;
+  padding: 16px 0;
+  font-size: 18px;
+  color: #666666;
+  margin-right: 30px;
+}
+#result .filter-wrap .search-button {
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #3f3f3f;
+  border-radius: 8px;
+  border: 0;
+  color: #ffffff;
+  font-size: 19px;
+  float: right;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/icon-search.png);
+  background-repeat: no-repeat;
+  background-size: 20px 21px;
+  background-position: left 23px center;
+  text-indent: 20px;
+}
+
+#result .result-wrap {
+  width: 100%;
+  background-color: #fafafa;
+  border-top: 1px solid #e3e3e3;
+}
+#result .result-wrap:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+#result .result-wrap .result-header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+#result .result-wrap .result-header:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#result .result-wrap .result-header .title {
+  font-size: 22px;
+  color: #333333;
+  float: left;
+  font-weight: 500;
+  line-height: 60px;
+}
+#result .result-wrap .result-header .selectbox {
+  float: right;
+}
+#result .result-wrap .result-header .selectbox select {
+  width: 160px;
+  margin-left: 24px;
+  float: left;
+}
+
+#result .result-list {
+
+}
+#result .result-list .result-item {
+  position: relative;
+  width: 100%;
+  height: 166px;
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+  background-color: #ffffff;
+  margin-bottom: 18px;
+  clear: both;
+  cursor: pointer;
+}
+#result .result-list .result-item .thumb {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 164px;
+  height: 164px;
+  border-left: 1px solid #e3e3e3;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#result .result-list .result-item .info {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 35px 200px 50px 35px;
+}
+#result .result-list .result-item .info .title {
+  display: inline-block;
+  font-size: 27px;
+  color: #3f3f3f;
+  font-weight: 500;
+  margin-right: 15px;
+  vertical-align: top;
+}
+#result .result-list .result-item .info .label-wrap {
+  display: inline-block;
+  padding-top: 3px;
+}
+#result .result-list .result-item .info .score {
+  position: absolute;
+  right: 200px;
+  top: 35px;
+  width: 80px;
+  height: 18px;
+  line-height: 18px;
+  text-align: right;
+  font-weight: 500;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-star.png');
+  background-repeat: no-repeat;
+  background-size: 18px 17px;
+  background-position: left center;
+}
+#result .result-list .result-item .detail {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 200px 35px 35px;
+  color: #3f3f3f;
+  font-size: 22px;
+  font-weight: 500;
+}
+#result .result-list .result-item .detail > div {
+  width: 33.333%;
+  float: left;
+  text-align: left;
+}
+#result .result-list .result-item .detail .title {
+  font-size: 17px;
+  color: #666666;
+  font-weight: 300;
+}
+
+
+#result .result-wrap .next-button {
+  clear: both;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #979797;
+  color: #666666;
+  font-size: 15px;
+  float: right;
+  margin-bottom: 120px;
+}

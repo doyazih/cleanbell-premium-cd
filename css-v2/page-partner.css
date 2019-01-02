@@ -1,0 +1,129 @@
+#partner {}
+#partner .title-wrap {
+  width: 100%;
+  height: 288px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #7c4fe0;
+  background-image: url(https://cleanbell.blob.core.windows.net/images/background-contact.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 776px auto;
+}
+#partner .title-wrap .subtitle {
+  padding-top: 90px;
+  font-size: 24px;
+}
+#partner .title-wrap .title {
+  padding-top: 18px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#partner .landing {
+  height: 420px;
+  box-sizing: border-box;
+  padding-top: 125px;
+  padding-left: 420px;
+  font-size: 25px;
+  color: #666666;
+  line-height: 1.5em;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/background-stats.png');
+  background-repeat: no-repeat;
+  background-size: 296px auto;
+  background-position: left 60px center;
+}
+#partner .landing > div {
+  padding-bottom: 40px;
+}
+
+#partner .advantage {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background-image: linear-gradient(to top, #ebe3f5, #f5f5f5);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 57px;
+}
+#partner .advantage:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#partner .advantage .card {
+  position: relative;
+  float: left;
+  width: 292px;
+  height: 365px;
+  box-sizing: border-box;
+  border-radius: 17px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  border: solid 1px #e7e7e7;
+  transition: box-shadow 500ms;
+  margin: 0 14px;
+  text-align: center;
+  padding-top: 178px;
+}
+#partner .advantage .card:hover {
+  box-shadow: 0 2px 20px 0 rgba(155, 155, 155, 0.5);
+}
+#partner .advantage .card:nth-child(1) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-free.png');
+  background-size: 86px auto;
+  background-position: top 90px center;
+}
+#partner .advantage .card:nth-child(2) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-graph.png');
+  background-size: 67px auto;
+  background-position: top 76px center;
+}
+#partner .advantage .card:nth-child(3) {
+  background-image: url('https://cleanbell.blob.core.windows.net/images/icon-flatforms.png');
+  background-size: 55px auto;
+  background-position: top 87px center;
+}
+#partner .advantage .card .title {
+  font-size: 22px;
+  color: #6130cf;
+  font-weight: 700;
+}
+#partner .advantage .card .description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #666666;
+  word-break: keep-all;
+}
+
+#partner .submit {
+  width: 100%;
+  height: 410px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+#partner .submit .content {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.6em;
+  color: #3f3f3f;
+  margin-bottom: 40px;
+}
+#partner .submit .c-button {
+  width: 260px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 8px;
+  background-color: #6130cf;
+  color: #ffffff;
+  font-size: 19px;
+  margin: 0 auto;
+}

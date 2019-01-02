@@ -1,0 +1,59 @@
+#contact {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#contact .title-wrap {
+  padding: 50px 0;
+}
+#contact .title-wrap .title {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+#contact .title-wrap .title span {
+  display: block;
+}
+#contact .title-wrap .subtitle {
+  font-size: 13px;
+}
+
+#contact .form-wrap {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 180px 32px 65px 32px;
+  background-color: #ffffff;
+  background-image: url('https://cleanbell.blob.core.windows.net/images/background-invitation.png');
+  background-repeat: no-repeat;
+  background-position: center top 37px;
+  background-size: 220px auto;
+}
+#contact .form-wrap > div {
+  margin-bottom: 32px;
+}
+#contact .form-wrap label {}
+#contact .form-wrap .c-input {
+  width: 100%;
+  max-width: inherit;
+  height: 32px;
+  line-height: 31px;
+  font-size: 13px;
+  box-sizing: border-box;
+  padding: 0 4px;
+}
+#contact .form-wrap .submit {
+  text-align: center;
+  padding-top: 16px;
+}
+#contact .form-wrap .submit .c-button {
+  width: 156px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #6130cf;
+  border: solid 1px #4c2a99;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0 auto;
+}

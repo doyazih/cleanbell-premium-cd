@@ -1,0 +1,223 @@
+#day {}
+
+#day .title-wrap {
+  height: 200px;
+  background-size: 350px auto;
+}
+#day .title-wrap .title {
+  padding-top: 70px;
+  font-size: 22px;
+}
+#day .title-wrap .subtitle {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  word-break: keep-all;
+  line-height: 1.4em;
+  font-size: 15px;
+}
+
+#day .message {
+  box-sizing: border-box;
+  padding: 0 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#day .message:before {
+  content: '';
+  display: block;
+  position: relative;
+  top: -23px;
+  left: 50%;
+  margin-left: -13px;
+  width: 26px;
+  height:  2px;
+  background-color: #6130cf;
+}
+
+#day .calendar-wrap {
+  margin-top: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#day .calendar-wrap .calendar-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+#day .calendar-wrap .calendar-inner .calendar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 60px;
+  float: inherit;
+}
+#day .calendar-wrap .calendar-inner .content {
+  position: relative;
+  left: inherit;
+  top: inherit;
+  width: 100%;
+  height: auto;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  padding: 34px 24px;
+  border-top: solid 1px #dcdcdc;
+  border-right: 0;
+  border-bottom: solid 1px #dcdcdc;
+}
+#day .calendar-wrap .calendar-inner .content .ymd {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#day .calendar-wrap .calendar-inner .content .day {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+#day .calendar-wrap .calendar-inner .content .description {
+  margin-bottom: 20px;
+}
+#day .calendar-wrap .calendar-inner .content .search {
+  font-size: 15px;
+  color: #3f2da7;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+#day .calendar-wrap .info {
+  margin-top: 18px;
+  margin-bottom: 35px;
+  padding: 0 20px;
+}
+#day .calendar-wrap .info:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#day .calendar-wrap .info > div {
+  float: left;
+  position: relative;
+  padding: 0 23px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+#day .calendar-wrap .info > div:before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+#day .calendar-wrap .info > .son:before {
+  background-color: #3f2da7;
+}
+#day .calendar-wrap .info > .son {
+  color: #4c2a99;
+}
+#day .calendar-wrap .info > .selected:before {
+  background-color: #F5A623;
+}
+#day .calendar-wrap .info > .selected {
+  color: #F5A623;
+}
+
+#day .information {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fafafa;
+}
+#day .information .c-inner:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#day .information .item {
+  width: 100%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 80px 70px;
+  color: #3f3f3f;
+  text-align: center;
+  word-break: keep-all;
+  background-repeat: no-repeat;
+  border: 0;
+}
+#day .information .item:nth-child(3) {
+  padding-bottom: 0;
+}
+#day .information .item .title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+#day .information .item .description {
+  font-size: 13px;
+  line-height: 1.6em;
+}
+
+#day .weather-selector {
+  height: 60px;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#day .weather-selector .c-select {
+  width: 160px;
+  position: relative;
+  right: inherit;
+  top: inherit;
+  margin: 0 auto;
+}
+
+#day .weather {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+#day .weather:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+#day .weather .weather-item {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 220px;
+  color: #ffffff;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 36px auto;
+  background-position: center;
+}
+#day .weather .weather-item .region {
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+#day .weather .weather-item .day {
+  font-size: 15px;
+  padding-top: 26px;
+  padding-bottom: 8px;
+}
+#day .weather .weather-item .date {
+  font-size: 13px;
+  opacity: 0.6;
+}
+#day .weather .weather-item .temperature {
+  font-size: 13px;
+  font-weight: 700;
+  padding-top: 110px;
+}
