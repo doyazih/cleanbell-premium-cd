@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/css-v2/sub.css">
   <link rel="stylesheet" href="/css-v3/premium.css">
   <link rel="stylesheet" href="/css-v3/premium-sub.css">
+  <link rel="stylesheet" href="/css-v3/premium-640.css">
   <script type="text/javascript" async="" src="/js/analytics.js"></script>
   <script src="/js/jquery-1.11.3.min.js"></script>
   <script src="/js/jquery-ui.min.js"></script>
@@ -47,25 +48,24 @@
     <header id="header">
       <div class="inner">
         <h1 id="logo">
-          <a href="http://cleanbell.co.kr/">
+          <a href="http://www.cleanbell.co.kr/">
             <img src="/images-v2/logo.png" alt="클린벨">
           </a>
         </h1>
-        <a href="http://cleanbell.co.kr/search-2#" class="btn_gnb blind_pc">
-          <img src="/images-v2/btn_gnb.png" alt="">
-        </a>
+        <a href="#none" class="showDropmenu"></a>
         <nav id="nav">
-          <div class="blind_pc">
-            <a href="http://cleanbell.co.kr/search-2#" class="btn_gnb_close">
-              <img src="/images-v2/icon-close.png" alt="">
-            </a>
-          </div>
           <ul id="gnb">
-            <li class="blind_pc">
-              <a href="http://www.cleanbell.co.kr/main">메인</a>
-            </li>
-            <li>
+            <li class="cleanbellDrop">
               <a href="http://www.cleanbell.co.kr/search-1">청소업체 검색</a>
+              <div class="cleanbell-dropmenu">
+                <ul>
+                  <li><a href="#none">청소업체 검색</a></li>
+                  <li><a href="#none">청소업체 선택 TIP</a></li>
+                  <li><a href="#none">신청내역조회</a></li>
+                  <li><a href="#none">손없는날</a></li>
+                  <li class="dropwidth100"><a href="#none">고객센터</a></li>
+                </ul>
+              </div>
             </li>
             <li class="premiumDrop">
               <a href="/premium/premium_main.html">프리미엄 청소</a>
@@ -80,9 +80,7 @@
               </div>
             </li>
           </ul>
-          <p class="blind_pc gnb_copyright">Copyright © CLEANBELL</p>
         </nav>
-        <a href="#none" class="showDropmenu"></a>
       </div>
     </header>
 
@@ -109,11 +107,9 @@
               </dd>
               <div class="checkModal" id="businessModal">
                 <div class="modalContent">
-                  <div>
-                    <img src="/images-v3/itemBoxIcon80.png" alt="">
-                    <p><strong class="colorPurple">50평 이상의 사업장</strong>의 경우<span class="textblock"></span><strong class="border colorPurple">무료 방문견적</strong>을 진행할 예정입니다.</p>
-                    <p>클린벨 전문 상담원이<span class="textblock"></span>고객님께 바로 연락드리겠습니다.</p>
-                  </div>
+                  <img src="/images-v3/itemBoxIcon80.png" alt="">
+                  <p><strong class="colorPurple">50평 이상의 사업장</strong>의 경우<span class="textblock"></span><strong class="border colorPurple">무료 방문견적</strong>을 진행할 예정입니다.</p>
+                  <p>클린벨 전문 상담원이<span class="textblock"></span>고객님께 바로 연락드리겠습니다.</p>
                   <a href="#none" class="closeModal">확인</a>
                 </div>
               </div>

@@ -1,5 +1,13 @@
 
 $(function () {
+  //청소업체 검색
+  $('.cleanbellDrop').hover(function(){
+    $('.cleanbellDrop > a').addClass("before");
+    $('.cleanbell-dropmenu').addClass("hover");
+  }, function(){
+    $('.cleanbellDrop > a').removeClass("before");
+    $('.cleanbell-dropmenu').removeClass("hover");
+  });
   //프리미엄 청소 드롭다운 메뉴
   $('.premiumDrop').hover(function(){
     $('.showDropmenu').addClass("imgChange");
@@ -26,14 +34,15 @@ $(function () {
     loop: true,
     center:true,
     margin: 0,
-    nav:false,
-    dots:true
+    nav:true,
+    navText:["<span></span>","<span></span>"],
+    dots:false
   });
   //고객 리뷰 슬라이드
   $('.reviewSlide').owlCarousel({
     items: 1,
-    loop: true,
-    margin: 0,
+    loop: false,
+    margin: 15,
     nav: true,
     dots: false
   });
@@ -47,6 +56,18 @@ $(function () {
     nav: true,
     navText:["<span></span>","<span></span>"],
     dots: true,
+    URLhashListrener:true,
+    autoplayHoverPause:true,
+    startPosition:'URLHash'
+  });
+  //청소범위 모바일 모달 내부 슬라이드 dots
+  $('.dotSlide').owlCarousel({
+    items:1,
+    loop:false,
+    center:false,
+    margin:5,
+    nav:false,
+    dots:false,
     URLhashListrener:true,
     autoplayHoverPause:true,
     startPosition:'URLHash'
@@ -70,7 +91,8 @@ $(function () {
       $('#' + $(this).val()).show();
   });
 
-  $(".premiumModal").attr('style','display:none');
+  //$(".premiumModal").attr('style','display:none');
+  $(".premiumModal").hide();
   //openModal - 청소하는 범위
   $("#detailCleanRange").click(function(){
     $("#cleanRange").show();

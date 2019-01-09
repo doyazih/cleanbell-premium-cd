@@ -1,0 +1,223 @@
+@media (max-width:640px) {
+  /* 메인메뉴 */
+  .showDropmenu{position:absolute;top:0;right:0;padding:12px;}
+  #nav{position:relative;top:0;left:0;right:0;width:100%;height:100%;background-color:#fff;box-shadow:none;transition:none;}
+  #nav > div{margin-bottom:0}
+  #gnb{margin-left:0;border-top:1px solid #ebebeb}
+  #gnb li{float:left;margin-left:0 !important;padding:0;width:50%;background:none}
+  #gnb li a{font-size:14px;line-height:45px;}
+  #gnb li a:hover{position:relative;}
+  #gnb li a:hover::after{position:absolute;bottom:0;left:0;width:100%;height:3px;background:#6131ce;content:''}
+
+  #header .cleanbell-dropmenu{top:45px}
+  #header .cleanbell-dropmenu::after{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,0.7)}
+  #header .cleanbell-dropmenu ul{height:135px}
+  #header .cleanbell-dropmenu ul li{position:relative;float:left;width:50%;padding:0}
+  #header .cleanbell-dropmenu ul li a{font-size:13px;line-height:45px}
+  #header .cleanbell-dropmenu ul li a:hover::after{display:none}
+  #header .cleanbell-dropmenu ul li:nth-child(odd)::after{position:absolute;top:0;right:0;width:1px;height:45px;background:#464646;content:''}
+  #header .cleanbell-dropmenu ul li:nth-child(3)::before,
+  #header .cleanbell-dropmenu ul li:nth-child(4)::before,
+  #header .cleanbell-dropmenu ul li:last-child::before{position:absolute;top:0;left:0;right:0;width:100%;height:1px;background:#464646;content:''}
+  #header .cleanbell-dropmenu ul li.dropwidth100{width:100%}
+
+  #header .premium-dropmenu{top:45px}
+  #header .premium-dropmenu ul{height:90px}
+  #header .premium-dropmenu ul li{position:relative;float:left;width:50%;padding:0}
+  #header .premium-dropmenu ul li a{font-size:13px;line-height:45px}
+  #header .premium-dropmenu ul li a:hover::after{display:none}
+  #header .premium-dropmenu ul li:nth-child(odd)::after{position:absolute;top:0;right:0;width:1px;height:45px;background:#464646;content:''}
+  #header .premium-dropmenu ul li:nth-child(3)::before,
+  #header .premium-dropmenu ul li:last-child::before{position:absolute;top:0;left:0;right:0;width:100%;height:1px;background:#464646;content:''}
+  #header .premium-dropmenu span{font-size:10px;line-height:25px;}
+  #header .premium-dropmenu span strong{font-size:10px;line-height:25px;}
+
+  /* 메인 비주얼 */
+  #container{padding-top:0}
+  .visual h2 img{width:calc(100% - 100px)}
+  .visual_premium{padding:0;background-size:inherit;background:url(/images-v3/visual_p_bg.jpg) no-repeat 36% 82%}
+  .visual_premium .visual_sns{padding-top:18px}
+  .visual_premium .visual_sns ol{margin-bottom:10px}
+  .visual_premium .visual_sns ol li{margin-right:10px}
+  .visual_premium .visual_sns ol li:last-of-type{margin-right:0}
+  .visual_premium h2{padding:61px 0 60px;background-size:calc(100% - 60px);}
+  .visual_premium h2 .visual_sub_tit{padding:15px 0 10px;font-size:15px;line-height:12px;font-weight:400;letter-spacing:-0.75px}
+  .visual_premium h2 .visual_sub_tit strong{font-weight:400}
+  .visual_premium h2 .visual_price{padding-bottom:30px}
+  .visual_premium h2 .visual_price small{font-size:10px;line-height:12px;font-weight:400}
+  .visual_premium .visual_btns ol li{width:115px;height:40px}
+  .visual_premium .visual_btns ol li input[type=button]{font-size:13px;line-height:40px}
+
+  /* 시공건수 예약률 */
+  .premium_count ol{height:inherit}
+  .premium_count ol li{width:100%}
+  .premium_count ol li .s_tit{margin-right:15px;font-size:20px}
+  .premium_count ol li.cleanCount{padding:18px 0 19px;text-align:center;}
+  .premium_count ol li.cleanCount .s_tit{line-height:30px;letter-spacing:-0.3px}
+  .premium_count ol li.cleanCount strong{padding-right:0;font-size:30px;line-height:30px}
+  .premium_count ol li.cleanCount .countUnit{font-size:20px;line-height:30px}
+  .premium_count ol li.cleanReserve{height:inherit;padding:12px 0;overflow:hidden;text-align:center;}
+  .premium_count ol li.cleanReserve .s_tit{padding-left:0;line-height:45px}
+  .premium_count ol li.cleanReserve .imgMonth{width:36px;height:46px;background-size:100%;font-size:15px;line-height:36px}
+  .premium_count ol li.cleanReserve .imgMonth small{font-size:10px}
+  .premium_count ol li.cleanReserve strong{display:inline-block;}
+  .premium_count ol li.cleanReserve strong span{font-size:30px;line-height:41px}
+
+  /* 가장 깨끗한 보금자리로 만드는 클린벨 */
+  .premium_list{padding:30px 0}
+  .premium_list .inner{width:100%}
+  .premium_list h2{font-size:20px;line-height:25px;font-weight:400}
+  .premium_list h2 span{display:block;font-weight:500}
+  .premium_list ul{padding:22px 0 0}
+  .premium_list ul li{float:none;width:100%}
+  .premium_list ul li h3{padding:20px 0;font-size:15px;line-height:15px;font-weight:400}
+  .nestSlider.owl-carousel{position:relative;}
+  .nestSlider.owl-carousel .owl-item img{width:calc(100% - 106px);margin:0 auto;}
+  .nestSlider.owl-carousel .owl-controls .owl-nav{position:absolute;top:50%;margin-top:-8px;left:35px;right:35px}
+  .nestSlider.owl-carousel .owl-controls .owl-nav::after{display:block;clear:both;content:''}
+  .nestSlider.owl-carousel .owl-controls .owl-prev{float:left;width:10px;height:16px;background:url(/images-v3/nestLeft.png) no-repeat;background-size:cover}
+  .nestSlider.owl-carousel .owl-controls .owl-prev:hover{background:url(/images-v3/nestLeftHover.png) no-repeat;background-size:cover}
+  .nestSlider.owl-carousel .owl-controls .owl-next{float:right;width:10px;height:16px;background:url(/images-v3/nestRight.png) no-repeat;background-size:cover}
+  .nestSlider.owl-carousel .owl-controls .owl-next:hover{background:url(/images-v3/nestRightHover.png) no-repeat;background-size:cover}
+
+  /* 청소 가격 알아보기 */
+  .premium_price .inner{width:100%}
+  .premium_price .inner a{padding:30px 0;font-size:17px;line-height:20px}
+  .premium_price .inner a span{padding-right:16px}
+  .premium_price .inner a span::after{width:8px;background-size:cover}
+
+  /* 고객 리뷰 슬라이드 */
+  .premium_review{position:relative;padding:52px 0}
+  .premium_review::before{position:absolute;left:-10px;bottom:0;width:116px;height:125px;background:url(/images-v3/characterMale.png) center top;background-size:cover;content:''}
+  .premium_review::after{position:absolute;left:115px;bottom:0;width:116px;height:125px;background:url(/images-v3/characterFemale.png) center top;background-size:cover;content:''}
+  .premium_review .inner{width:100%}
+  .premium_review .reviewSlide{width:calc(100% - 70px);margin:0 auto}
+  .premium_review .reviewSlide.owl-carousel .owl-stage-outer{width:100%;margin:0 25px}
+  .premium_review .reviewSlide.owl-carousel .owl-item{width:200px !important;filter:grayscale(100);}
+  .premium_review .reviewSlide.owl-carousel .owl-item.active{filter:grayscale(0);}
+  .premium_review .reviewSlide .reviewBox{padding:19px 0;width:100%;padding:32px 0;height:inherit;-moz-box-shadow:4px 4px 18px 1px rgba(0,0,0,0.12);-webkit-box-shadow:4px 4px 18px 1px rgba(0,0,0,0.12);box-shadow:4px 4px 18px 1px rgba(0,0,0,0.12)}
+  .premium_review .reviewSlide .profileBox{float:inherit;margin:0 auto;width:160px;height:160px}
+  .premium_review .reviewSlide .txtBox{float:inherit;margin:0 auto;width:calc(100% - 40px)}
+  .premium_review .reviewSlide .txtBox span{margin-left:0;text-align:center;}
+  .premium_review .reviewSlide .txtBox span.address{font-size:12px;line-height:20px;letter-spacing:-0.3px}
+  .premium_review .reviewSlide .txtBox span.name{font-size:12px;line-height:20px;letter-spacing:-0.3px}
+  .premium_review .reviewSlide .txtBox span.date{font-size:10px;line-height:20px;letter-spacing:-0.3px}
+  .premium_review .reviewSlide .txtBox span.phrase{font-size:12px;line-height:19px}
+
+  .reviewSlide .owl-controls{}
+  .reviewSlide .owl-controls .owl-prev{width:10px;height:16px;background-size:cover}
+  .reviewSlide .owl-controls .owl-prev:hover{background-size:cover}
+  .reviewSlide .owl-controls .owl-next{width:10px;height:16px;background-size:cover}
+  .reviewSlide .owl-controls .owl-next:hover{background-size:cover}
+
+  /* 반드시 체크해야할 항목 */
+  .premiumChecklist{}
+  .premiumChecklist .inner{width:100%}
+  .premiumChecklist .inner::after{display:none}
+  .premiumChecklist .bg{padding:50px 0}
+  .premiumChecklist .bg::before{display:none}
+  .premiumChecklist .bg::after{display:none}
+  .premiumChecklist h3{position:initial;font-size:20px;line-height:24px;text-align:center;}
+  .premiumChecklist h3 span{display:inline-block;margin:0 5px}
+  .premiumChecklist ol{width:calc(100% - 40px);padding:28px 0 0}
+  .premiumChecklist li span{font-size:13px;}
+  .premiumChecklist li a.detailBtn{width:115px;height:40px;font-size:13px;line-height:40px;-moz-box-shadow:1px 1px 4px 1px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 4px 1px rgba(0,0,0,0.2);box-shadow:1px 1px 4px 1px rgba(0,0,0,0.2)}
+  .premiumChecklist li a.detailBtn span{padding-top:13px}
+
+  /* 청소범위 모달 */
+  .premiumModal > div{width:100%;padding:20px;max-width:80%;transform:translate(0,0);}
+  .premiumModal h4{font-size:20px;line-height:40px}
+  .premiumModal p{padding:0 5%;word-break:keep-all;font-size:12px;line-height:19px}
+
+  .cleanRangeSlide{margin:18px 0 0}
+  .cleanRangeSlide .owl-controls .owl-dots{display:none !important}
+  .cleanRangeSlide .dotSlide.owl-carousel .owl-stage-outer{overflow-x:scroll;}
+  .cleanRangeSlide .dotSlide.owl-carousel .owl-stage{height:73px;overflow:hidden;}
+  .cleanRangeSlide .dotSlide.owl-carousel .owl-item{width:73px !important;height:73px !important;}
+  .cleanRangeSlide .dotSlide .owl-controls{display:none}
+  .cleanRangeSlide a{position:relative;display:inline-block;font-size:0;width:73px;height:73px;}
+  .cleanRangeSlide a::before{position:absolute;top:42px;right:-10px;width:10px;height:1px;background:#a584f0;content:''}
+  .cleanRangeSlide a.rangeIcon01{background:url(/images-v3/rangeIcon_01.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon01:hover{background:url(/images-v3/rangeIconOver_01.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon02{background:url(/images-v3/rangeIcon_02.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon02:hover{background:url(/images-v3/rangeIconOver_02.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon03{background:url(/images-v3/rangeIcon_03.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon03:hover{background:url(/images-v3/rangeIconOver_03.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon04{background:url(/images-v3/rangeIcon_04.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon04:hover{background:url(/images-v3/rangeIconOver_04.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon05{background:url(/images-v3/rangeIcon_05.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon05:hover{background:url(/images-v3/rangeIconOver_05.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon06{margin-right:0;background:url(/images-v3/rangeIcon_06.png) no-repeat;background-size:cover;}
+  .cleanRangeSlide a.rangeIcon06:hover{background:url(/images-v3/rangeIconOver_06.png) no-repeat;background-size:cover}
+  .cleanRangeSlide a.rangeIcon06::before{display:none}
+
+  .cleanRangeSlide .owl-controls{height:inherit;top:-24px}
+  .cleanRangeSlide .owl-controls .owl-nav{height:24px}
+  .cleanRangeSlide .owl-controls .owl-prev{width:50%}
+  .cleanRangeSlide .owl-controls .owl-prev span{left:50%;margin-left:-2px;margin-top:-4px;width:5px;height:8px;background-size:cover}
+  .cleanRangeSlide .owl-controls .owl-prev:hover span{background-size:cover;}
+  .cleanRangeSlide .owl-controls .owl-next{width:50%}
+  .cleanRangeSlide .owl-controls .owl-next span{left:50%;margin-left:-2px;margin-top:-4px;width:5px;height:8px;background-size:cover}
+  .cleanRangeSlide .owl-controls .owl-next:hover span{background-size:cover;}
+
+  .cleanRangeDetail{margin:40px auto 10px}
+  .cleanRangeDetail .item.width50 dl:first-child{width:50%;padding-left:0}
+  .cleanRangeDetail .item.width50 dl:last-child{width:50%;padding-right:0}
+  .cleanRangeDetail .item dd{padding-left:19px;font-size:12px;line-height:25px;min-height:36px}
+
+  .premiumChecklist li span.cleanRangeNote{padding:5px 0;font-size:11px;line-height:15px;letter-spacing:-0.5px}
+
+  .cleanRangeTip{padding:29px 19px;margin:25px auto}
+  .cleanRangeTip h5{font-size:16px;line-height:26px;font-weight:500}
+  .premiumChecklist li .cleanRangeTip span{padding:8px 0;font-size:12px;line-height:15px}
+  .cleanRangeTip li{font-size:11px;line-height:15px}
+  .cleanRangeTip li::before{top:25%;margin-top:-6px;width:23px;height:23px}
+  .premiumChecklist .cleanRangeTip ol{padding:5px 0 0}
+
+  .premiumModal .closeModal{width:140px;font-size:13px;line-height:40px;}
+
+  .cleanNoticeDetail .item .itemBox{padding:19px 0 23px;margin-bottom:24px}
+  .cleanNoticeDetail .item .itemBox img{margin-bottom:10px}
+  .cleanNoticeDetail .item .itemBox h5{font-size:16px;line-height:20px}
+  .cleanNoticeDetail .item .itemBox h5 strong{display:block}
+  .cleanNoticeSlide .owl-controls .owl-dots{top:-299px}
+  .cleanNoticeDetail .item .itemBox p{font-size:11px;line-height:16px;padding:0 15px}
+  .cleanNoticeDetail .item .itemBox p span.textblock{display:inline-block !important}
+  .cleanNoticeSlide .owl-controls{bottom:0;height:24px}
+  .cleanNoticeSlide .owl-controls .owl-nav{position:absolute;bottom:150px}
+  .cleanNoticeSlide .owl-controls .owl-prev{width:50%}
+  .cleanNoticeSlide .owl-controls .owl-prev span{left:50%;margin-top:-4px;margin-left:-2px;width:5px;height:8px;background-size:cover}
+  .cleanNoticeSlide .owl-controls .owl-prev:hover span{background-size:cover}
+  .cleanNoticeSlide .owl-controls .owl-next{width:50%}
+  .cleanNoticeSlide .owl-controls .owl-next span{left:50%;margin-top:-4px;margin-left:-2px;width:5px;height:8px;background-size:cover}
+  .cleanNoticeSlide .owl-controls .owl-next:hover span{background-size:cover}
+  .cleanNoticeDetail .item dl{height:100%}
+  .cleanNoticeDetail .item dl img{width:100%}
+  .cleanNoticeDetail .item .itemBox .asInfo{margin:12px 20px 0;width:initial;font-size:10px;line-height:13px}
+  .cleanNoticeDetail .item .itemBox ol{width:calc(100% - 60px);padding:0}
+  .cleanNoticeDetail .item .itemBox ol li{font-size:11px;line-height:16px}
+  .cleanNoticeDetail .item .itemBox ol li::before{top:25%}
+  .cleanNoticeDetail .item .itemBox ol li.top50::before{top:50%}
+  .cleanNoticeDetail .item .itemBox ol li.theight::before{top:17%}
+  .premiumChecklist li span.mstrongspan{display:inline;color:#353535;padding:0;font-size:16px;line-height:20px}
+
+  /* 많은 사람들이 클린 프리미엄을 찾는 이유 */
+  .premium_reason{padding:0}
+  .premium_reason::before{right:0;left:inherit;background-size:cover;width:200px;height:75px}
+  .premium_reason::after{display:none}
+  .premium_reason .inner{width:100%}
+  .premium_reason h3{margin:0;width:calc(100% - 74px);padding:23px 0 23px 34px;font-size:20px;line-height:24px;border-radius:0 50px 50px 0;text-align:left}
+  .premium_reason h3 strong{display:block;font-weight:normal}
+  .premium_reason h3::before{left:-10px}
+  .premium_reason h3::after{top:76px;right:0;width:49px;height:45px;background-size:cover}
+  .premium_reason ol{margin:0 34px;padding:18px 0 22px}
+  .premium_reason li{padding-left:40px;font-size:13px;line-height:22px;letter-spacing:-0.3px;word-break:keep-all;}
+  .premium_reason li .mblock{display:block;}
+
+  /* 프리미엄 하단 배너 */
+  .premium_banner{padding:38px 0 32px;height:100%;background-position:40% center;background-size:cover}
+  .premium_banner > .inner{width:100%}
+  .premium_banner dt{font-size:12px;line-height:22px}
+  .premium_banner dd{font-size:18px;line-height:24px}
+  .premium_banner .premiumBanBtn input{width:115px;height:40px;font-size:13px;line-height:40px}
+}

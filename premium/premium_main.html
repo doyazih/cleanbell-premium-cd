@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/css-v2/sub.css">
   <link rel="stylesheet" href="/css-v3/premium.css">
   <link rel="stylesheet" href="/css-v3/premium-sub.css">
+  <link rel="stylesheet" href="/css-v3/premium-640.css">
   <script type="text/javascript" async="" src="/js/analytics.js"></script>
   <script src="/js/jquery-1.11.3.min.js"></script>
   <script src="/js/jquery-ui.min.js"></script>
@@ -50,25 +51,24 @@
             <img src="/images-v2/logo.png" alt="클린벨">
           </a>
         </h1>
-        <a href="http://www.cleanbell.co.kr/#" class="btn_gnb blind_pc">
-          <img src="/images-v2/btn_gnb.png" alt="">
-        </a>
+        <a href="#none" class="showDropmenu"></a>
         <nav id="nav">
-          <div class="blind_pc">
-            <a href="http://www.cleanbell.co.kr/#" class="btn_gnb_close">
-              <img src="/images-v2/icon-close.png" alt="">
-            </a>
-          </div>
           <ul id="gnb">
-            <li class="blind_pc">
-              <a href="http://www.cleanbell.co.kr/main">메인</a>
-            </li>
-            <li>
+            <li class="cleanbellDrop">
               <a href="http://www.cleanbell.co.kr/search-1">청소업체 검색</a>
+              <div class="cleanbell-dropmenu">
+                <ul>
+                  <li><a href="#none">청소업체 검색</a></li>
+                  <li><a href="#none">청소업체 선택 TIP</a></li>
+                  <li><a href="#none">신청내역조회</a></li>
+                  <li><a href="#none">손없는날</a></li>
+                  <li class="dropwidth100"><a href="#none">고객센터</a></li>
+                </ul>
+              </div>
             </li>
             <li class="premiumDrop">
               <a href="/premium/premium_main.html">프리미엄 청소</a>
-              <div class="premium-dropmenu blind_m">
+              <div class="premium-dropmenu">
                 <ul>
                   <li><a href="/premium/premium_main.html">홈</a></li>
                   <li><a href="/premium/premiumReview.html">고객 후기</a></li>
@@ -79,9 +79,7 @@
               </div>
             </li>
           </ul>
-          <p class="blind_pc gnb_copyright">Copyright © CLEANBELL</p>
         </nav>
-        <a href="#none" class="showDropmenu blind_m"></a>
       </div>
     </header>
     <article id="container" style="background:#fff">
@@ -105,11 +103,11 @@
           </div>
           <h2>
             <img src="/images-v3/visual_p_tit.png" alt="청소를 못하면 우리는 망한다!" class="blind_m">
-            <img src="/images-v3/visual_p_tit.png" alt="청소를 못하면 우리는 망한다!" class="blind_pc">
+            <img src="/images-v3/visual_p_tit_m.png" alt="청소를 못하면 우리는 망한다!" class="blind_pc">
             <span class="visual_sub_tit">우리는 <strong>서울, 경기, 인천 전 지역</strong> 가능합니다.</span>
-            <span class="visual_price">12,900<small>원/평</small></span>
+            <span class="visual_price roboto">12,900<small>원/평</small></span>
             <div class="visual_btns">
-              <ol id="panelStepDesc-pc" class="blind_m" style="cursor:pointer">
+              <ol id="panelStepDesc-pc" style="cursor:pointer">
                 <li class="bg_black"><a href="/premium/search-1.html"><input type="button" name="" value="예약하기"></a></li>
                 <li class="bg_white"><a href="/premium/counsel.html"><input type="button" name="" value="상담요청"></a></li>
               </ol>
@@ -167,23 +165,23 @@
           </ul>
           <ul class="nestSlider blind_pc">
             <li>
-              <img src="/images-v3/clean_list01.png" alt="하루 한 집 집중케어">
+              <img src="/images-v3/clean_list01_m.png" alt="하루 한 집 집중케어">
               <h3>하루 한 집 집중케어</h3>
             </li>
             <li>
-              <img src="/images-v3/clean_list02.png" alt="친환경 스팀 청소">
+              <img src="/images-v3/clean_list02_m.png" alt="친환경 스팀 청소">
               <h3>친환경 스팀 청소</h3>
             </li>
             <li>
-              <img src="/images-v3/clean_list03.png" alt="함께하는 검수시스템">
+              <img src="/images-v3/clean_list03_m.png" alt="함께하는 검수시스템">
               <h3>함께하는 검수시스템</h3>
             </li>
             <li>
-              <img src="/images-v3/clean_list04.png" alt="청소전문가">
+              <img src="/images-v3/clean_list04_m.png" alt="청소전문가">
               <h3>청소전문가</h3>
             </li>
             <li>
-              <img src="/images-v3/clean_list05.png" alt="전액후불제">
+              <img src="/images-v3/clean_list05_m.png" alt="전액후불제">
               <h3>전액후불제</h3>
             </li>
           </ul>
@@ -197,6 +195,21 @@
       <section class="premium_review">
         <div class="inner">
           <div class="reviewSlide">
+            <div class="reviewBox">
+              <a href="/premium/premiumReview.html">
+              <div class="profileBox">
+                <img src="/images-v3/reviewFace.jpg" alt="청소원 사진">
+              </div>
+              <div class="txtBox">
+                <span class="address">서울특별시 강남구 아파트</span>
+                <span class="name">홍길동 고객님</span>
+                <span class="date">
+                  <number>2018</number>년 <number>11</number>월 <number>23</number>일
+                </span>
+                <span class="phrase">"청소는 역시 클린벨입니다.<br>너무 깨끗하게 잘 해주셨어요!"</span>
+              </div>
+              </a>
+            </div>
             <div class="reviewBox">
               <a href="/premium/premiumReview.html">
               <div class="profileBox">
@@ -246,13 +259,15 @@
                     <h4>청소범위</h4>
                     <p>클린벨 프리미엄 청소범위는 간단합니다.<br>현관문을 열고 들어서는 곳부터 실내의 모든 부분이 청소범위에 해당합니다.</p>
                     <div class="cleanRangeSlide">
-                      <!-- <a href="#living" class="button secondary url rangeIcon01">거실</a>
-                      <a href="#veranda" class="button secondary url rangeIcon02">베란다</a>
-                      <a href="#room" class="button secondary url rangeIcon03">방</a>
-                      <a href="#kitchen" class="button secondary url rangeIcon04">주방</a>
-                      <a href="#wash" class="button secondary url rangeIcon05">화장실</a>
-                      <a href="#door" class="button secondary url rangeIcon06">현관</a> -->
-                      <div class="cleanRangeDetail">
+                      <div class="blind_pc dotSlide">
+                        <a href="#living" class="button secondary url rangeIcon01">거실</a>
+                        <a href="#veranda" class="button secondary url rangeIcon02">베란다</a>
+                        <a href="#room" class="button secondary url rangeIcon03">방</a>
+                        <a href="#kitchen" class="button secondary url rangeIcon04">주방</a>
+                        <a href="#wash" class="button secondary url rangeIcon05">욕실</a>
+                        <a href="#door" class="button secondary url rangeIcon06">현관</a>
+                      </div>
+                      <div class="cleanRangeDetail blind_m">
                         <div class="item" data-hash="living">
                           <dl>
                             <dd>등탈거</dd>
@@ -392,6 +407,140 @@
                           </dl>
                         </div>
                       </div>
+                      <div class="cleanRangeDetail blind_pc">
+                        <div class="item width50" data-hash="living">
+                          <dl>
+                            <dd>등탈거</dd>
+                            <dd>콘센트</dd>
+                            <dd>스위치</dd>
+                            <dd>창문</dd>
+                            <dd>창틀</dd>
+                            <dd>인터폰</dd>
+                            <dd>천장</dd>
+                          </dl>
+                          <dl>
+                            <dd>천장몰딩</dd>
+                            <dd>도배풀제거</dd>
+                            <dd>벽먼지제거</dd>
+                            <dd>거실장</dd>
+                            <dd>벽몰딩(원목)</dd>
+                            <dd>바닥</dd>
+                          </dl>
+                        </div>
+                        <div class="item width50" data-hash="veranda">
+                          <dl>
+                            <dd>계량기 외관</dd>
+                            <dd>보일러 외관</dd>
+                            <dd>보일러 배관</dd>
+                            <dd>콘센트</dd>
+                            <dd>등탈거</dd>
+                            <dd>창문</dd>
+                            <dd>창틀</dd>
+                            <dd>벽먼지제거</dd>
+                          </dl>
+                          <dl>
+                            <dd>천장먼지제거</dd>
+                            <dd>바닥</dd>
+                            <dd>배수구탈거</dd>
+                            <dd>창고 (문,선반)</dd>
+                            <dd>빨래건조대</dd>
+                            <dd>수전</dd>
+                            <dd>배수구노출배관</dd>
+                            <dd>줄눈먼지제거</dd>
+                          </dl>
+                        </div>
+                        <div class="item width50" data-hash="room">
+                          <dl>
+                            <dd>문 (문틀,경첩)</dd>
+                            <dd class="theight">천장(스프링쿨러, 에어컨, 벽지)</dd>
+                            <dd>천장몰딩</dd>
+                            <dd>등탈거</dd>
+                            <dd>벽지먼지제거</dd>
+                            <dd>스위치</dd>
+                            <dd>콘센트</dd>
+                            <dd>창문</dd>
+                          </dl>
+                          <dl>
+                            <dd class="theight">창틀먼지 및 얼룩 제거</dd>
+                            <dd>방충망몰딩</dd>
+                            <dd>방충망</dd>
+                            <dd>바닥몰딩</dd>
+                            <dd>바닥</dd>
+                            <dd>바닥얼룩</dd>
+                            <dd class="theight">붙박이장 선반 탈거</dd>
+                            <dd class="theight">붙박이장 수납장 탈거</dd>
+                          </dl>
+                        </div>
+                        <div class="item width50" data-hash="kitchen">
+                          <dl>
+                            <dd>선반탈거</dd>
+                            <dd>수납장 탈거</dd>
+                            <dd>걸레받이 탈거</dd>
+                            <dd>칼수납장 탈거</dd>
+                            <dd>배수구 탈거</dd>
+                            <dd>등탈거</dd>
+                            <dd>후드망탈거</dd>
+                            <dd>후드 기름때제거</dd>
+                            <dd>콘센트</dd>
+                          </dl>
+                          <dl>
+                            <dd>스위치</dd>
+                            <dd>창틀</dd>
+                            <dd>창문</dd>
+                            <dd>가스레인지</dd>
+                            <dd>주방수전 / 계수대</dd>
+                            <dd class="theight">도시가스배관 (먼지제거)</dd>
+                            <dd>얼룩제거불가능</dd>
+                            <dd>계량기함</dd>
+                            <dd>주방천정몰딩</dd>
+                          </dl>
+                        </div>
+                        <div class="item width50" data-hash="wash">
+                          <dl>
+                            <dd>등탈거</dd>
+                            <dd>환풍기분리</dd>
+                            <dd>하수구분리</dd>
+                            <dd>거울</dd>
+                            <dd class="theight">샤워부스(고무탈거)</dd>
+                            <dd>물때, 곰팡이제거</dd>
+                            <dd>욕조청소</dd>
+                            <dd>변기청소</dd>
+                            <dd>휴지걸이</dd>
+                          </dl>
+                          <dl>
+                            <dd>수건걸이</dd>
+                            <dd>문과 문틀(경첩)</dd>
+                            <dd>수납장</dd>
+                            <dd>바닥</dd>
+                            <dd class="theight">타일줄눈먼지제거 (변색안됨)</dd>
+                            <dd>백화현상</dd>
+                            <dd>수전/샤워호스</dd>
+                            <dd>세면대</dd>
+                            <dd>화장실천장</dd>
+                          </dl>
+                        </div>
+                        <div class="item width50" data-hash="door">
+                          <dl>
+                            <dd>등탈거</dd>
+                            <dd>콘센트</dd>
+                            <dd>스위치</dd>
+                            <dd>창문</dd>
+                            <dd>창틀</dd>
+                            <dd>현관문</dd>
+                            <dd>중문</dd>
+                            <dd>신발장</dd>
+                          </dl>
+                          <dl>
+                            <dd>신발장 선발 탈거</dd>
+                            <dd>신발장 수납장 탈거</dd>
+                            <dd class="theight">신발장 전기설비 (두꺼비집)</dd>
+                            <dd>외부초인종</dd>
+                            <dd>도어락</dd>
+                            <dd>바닥</dd>
+                            <dd>소화기</dd>
+                          </dl>
+                        </div>
+                      </div>
                     </div><!-- cleanRangeSlide -->
                     <span class="cleanRangeNote">※ 도배풀 제거는 정도에 따라 추가금액이 발생할 수 있습니다.</span>
                     <div class="cleanRangeTip">
@@ -424,7 +573,7 @@
                           <div class="itemBox">
                             <img src="/images-v3/itemBoxIcon.png" alt="안내">
                             <h5>청소 시작전 가능하면 <strong>현장에 방문해 주세요</strong></h5>
-                            <p>현장에서 팀장님께 고객님의 요구사항을 확실하게 전달하실 수 있고,<br>청소시공법 및 현장 상황에 맞는 정확한 청소진행이 가능합니다.</p>
+                            <p>현장에서 팀장님께 고객님의 요구사항을 확실하게 전달하실 수 있고,<span class="textblock"></span>청소시공법 및 현장 상황에 맞는 정확한 청소진행이 가능합니다.</p>
                           </div>
                           <dl class="noticeImg01"><img src="/images-v3/noticeImg_01.jpg" alt="현장에 방문해 주세요"></dl>
                         </div>
@@ -433,7 +582,7 @@
                             <img src="/images-v3/itemBoxIcon.png" alt="안내">
                             <h5>청소가 끝난 뒤 <strong>반드시 검수에 참여해 주세요</strong></h5>
                             <p>
-                              청소 후 현장검수에 참여하셔서 혹시나 미흡한 부분이 발견되면<br>부담없이 현장팀장님과 팀원께 말씀해주세요.<br>즉시 처리할 것이며, 고객님께서 완전히 만족하실 때까지 마무리하겠습니다.
+                              청소 후 현장검수에 참여하셔서 혹시나 미흡한 부분이 발견되면<span class="textblock"></span>부담없이 현장팀장님과 팀원께 말씀해주세요.<span class="textblock"></span>즉시 처리할 것이며, 고객님께서 완전히 만족하실 때까지 마무리하겠습니다.
                               <p class="asInfo">검수확인서 작성 후에는 A/S진행이 불가능하므로 검수를 꼼꼼하게 해주세요!</p>
                             </p>
                           </div>
@@ -445,7 +594,7 @@
                             <h5>서비스 진행이 불가능한 경우 <strong>철수할 수 있어요</strong></h5>
                             <ol>
                               <li>이사, 도배, 장판, 인테리어 공사 등 다른 작업이 진행중일 경우</li>
-                              <li>수돗물사용이 불가능한 상황인 경우</li>
+                              <li class="top50">수돗물사용이 불가능한 상황인 경우</li>
                               <li>현장 도착 후 고객님과 연락이 닿지 않아청소를 시작할 수 없는 경우</li>
                               <li>위의 사항으로 현장철수 하는 경우 청소비용의 50%를 청구</li>
                             </ol>
@@ -457,7 +606,7 @@
                             <img src="/images-v3/itemBoxIcon.png" alt="안내">
                             <h5><strong>현장에 짐이 있는 경우</strong> 청소가 어려울 수 있어요</h5>
                             <ol>
-                              <li>공실상태의 청소를 원칙으로 하고 있어요.</li>
+                              <li class="top50">공실상태의 청소를 원칙으로 하고 있어요.</li>
                               <li class="theight">가구나 짐을 옮겨가면서 청소를 할 수 있지만 청소 품질에 영향이 있을 것으로 판단되는 경우는 추가요금 청구 또는 청소가 불가할 수 있어요.</li>
                             </ol>
                           </div>
@@ -466,7 +615,7 @@
                         <div class="item" data-hash="notice05">
                           <div class="itemBox">
                             <img src="/images-v3/itemBoxIcon.png" alt="안내">
-                            <h5>청소비용은 <strong>분양평수 기준으로</strong> 산정해요</h5>
+                            <h5>청소비용은 <strong>분양평수 기준으로 <span class="mstrongspan">산정해요</span></strong></h5>
                             <ol>
                               <li class="theight">현장 방문 시 또는 분양정보의 평수가 견적평수와 차이가 있을 경우에는 현장에서 재산정하여 청소비용이 수정될 수 있어요.</li>
                               <li class="theight">간혹 분양평수와 실평수를 착각하여 예약하시는 경우가 있어서 현장에서 말씀드리고 있어요.</li>
@@ -487,13 +636,13 @@
       <section class="premium_reason">
         <div class="inner">
           <h3>
-            많은 사람들이 <span class="textYellow">클린벨 프리미엄을 찾는 이유</span><span class="textYellow borderNone">?</span>
+            많은 사람들이 <strong><span class="textYellow">클린벨 프리미엄을 찾는 이유</span><span class="textYellow borderNone">?</span></strong>
           </h3>
           <ol>
-            <li>각 팀별 정기 교육 및 맞춤별 교육과 품질 관리 시스템으로 최상의 청소품질을 유지합니다.</li>
-            <li>창틀, 바닥, 화장실 등 공간 특성에 맞는 맞춤 장비 사용으로 사람의 손이 닿지 않는 구석까지 말끔하게 청소합니다.</li>
-            <li>10여가지의 청소검수 체크리스트를 고객님과 함께 직접 확인합니다.</li>
-            <li>청소전 상담과 청소후 해피콜을 통한 고객님과의 적극적이 소통으로 고객만족 100%를 실현합니다.</li>
+            <li><strong>각 팀별 정기 교육 및 </strong><strong class="mblock">맞춤별 교육과 품질 관리 시스템<span style="font-weight:400">으로</span> </strong>최상의 청소품질을 유지합니다.</li>
+            <li>창틀, 바닥, 화장실 등 <strong class="mblock">공간 특성에 맞는 맞춤 장비 사용<span style="font-weight:400">으로</span> </strong>사람의 손이 닿지 않는 구석까지 <span class="mblock"></span>말끔하게 청소합니다.</li>
+            <li><strong>10여가지의 청소검수 체크리스트<span style="font-weight:400">를</span> </strong><span class="mblock"></span>고객님과 함께 직접 확인합니다.</li>
+            <li><strong>청소전 상담과 청소후 해피콜을 통한 </strong><strong class="mblock">고객님과의 적극적이 소통<span style="font-weight:400">으로</span> </strong>고객만족 100%를 실현합니다.</li>
           </ol>
         </div>
       </section>
