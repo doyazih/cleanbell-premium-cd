@@ -20,6 +20,15 @@ $(function () {
     $('.premiumDrop > a').removeClass("before");
     $('.premium-dropmenu').removeClass("hover");
   });
+  //모바일 메인 - 가장 깨끗한 보금자리로 만드는 클린벨
+  $('.nestSlider').owlCarousel({
+    items: 1,
+    loop: true,
+    center:true,
+    margin: 0,
+    nav:false,
+    dots:true
+  });
   //고객 리뷰 슬라이드
   $('.reviewSlide').owlCarousel({
     items: 1,
@@ -36,8 +45,8 @@ $(function () {
     margin: 0,
     autoHeight:true,
     nav: true,
-    navText:["<img src='../images-v3/rangePrev.png'>","<img src='../images-v3/rangeNext.png'>"],
-    dots: false,
+    navText:["<span></span>","<span></span>"],
+    dots: true,
     URLhashListrener:true,
     autoplayHoverPause:true,
     startPosition:'URLHash'
@@ -50,9 +59,11 @@ $(function () {
     margin: 0,
     autoHeight:true,
     nav: true,
-    navText:["<img src='../images-v3/rangePrev.png'>","<img src='../images-v3/rangeNext.png'>"],
+    //navText:["<img src='../images-v3/rangePrev.png'>","<img src='../images-v3/rangeNext.png'>"],
+    navText:["<span></span>","<span></span>"],
     dots: true
   });
+
   //청소구조 선택 - 자동텍스트
   $('#clean_kind').change(function(){
       $('.autoText').hide();
@@ -62,7 +73,7 @@ $(function () {
   $(".premiumModal").attr('style','display:none');
   //openModal - 청소하는 범위
   $("#detailCleanRange").click(function(){
-    $("#cleanRange").attr('style','display:block');
+    $("#cleanRange").show();
   });
   //closeModal - 청소하는 범위
   $("#closeRangeModal").click(function(){
@@ -70,7 +81,7 @@ $(function () {
   });
   //openModal - 청소 전 안내사항
   $("#detailCleanNotice").click(function(){
-    $("#cleanNotice").attr('style','display:block');
+    $("#cleanNotice").show();
   });
   //closeModal - 청소 전 안내사항
   $("#closeNoticeModal").click(function(){

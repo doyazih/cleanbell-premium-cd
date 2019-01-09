@@ -114,27 +114,42 @@
               <dd class="relative">
                 <input type="text" value="" id="certNumber" class="searchInput">
                 <input type="button" value="인증번호 확인" class="certNum active" id="numberCheck">
+                <span class="certNumTime2">2:43</span>
               </dd>
             </dl>
           </div>
           <div class="search_personal">
+            <script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
             <dl class="first width100">
               <dt>주소입력</dt>
               <dd class="relative">
-                <input type="text" value="" id="clientAddress" placeholder="우편번호" class="searchInput">
-                <input type="button" value="우편번호 찾기" class="certNum" id="findPost">
+                <input type="text" value="" id="clientPostCode" name="zip" placeholder="우편번호" class="searchInput">
+                <input type="button" value="우편번호 찾기" class="certNum" id="findPost" onclick="openZipSearch()">
               </dd>
             </dl>
             <dl class="first margin30">
               <dd class="relative">
-                <input type="text" value="" id="clientAddress" placeholder="주소" class="searchInput">
+                <input type="text" value="" id="clientAddress" name="addr1" placeholder="주소" class="searchInput">
               </dd>
             </dl>
             <dl class="second margin30">
               <dd class="relative">
-                <input type="text" value="" id="personal" placeholder="동, 호수 까지 입력하시면 좋습니다." class="searchInput">
+                <input type="text" value="" id="clientAddressDetail" name="addr2" placeholder="동, 호수 까지 입력하시면 좋습니다." class="searchInput">
               </dd>
             </dl>
+            <script>
+
+            function openZipSearch() {
+            	new daum.Postcode({
+            		oncomplete: function(data) {
+            			$('[name=zip]').val(data.zonecode); // 우편번호 (5자리)
+            			$('[name=addr1]').val(data.address);
+            			$('[name=addr2]').val(data.buildingName);
+            		}
+            	}).open();
+            }
+
+            </script>
           </div>
           <div class="search_personal">
             <dl class="third">
@@ -176,7 +191,7 @@
           </div>
           <div class="search_btn">
             <a id="btnPrevious" class="btn_prev" style="cursor:pointer">이전단계</a>
-            <a id="btnNext" class="btn_next" style="cursor:pointer">다음단계</a>
+            <a href="/premium/search-4.html" id="btnNext" class="btn_next" style="cursor:pointer">다음단계</a>
           </div>
         </section>
       </div>

@@ -1,26 +1,4 @@
-/*공통*/
-.textblock{display:block}
-.colorPurple{color:#6130cf !important;border-color:#6130cf !important}
-.colorYellow{color:#ffd400 !important;border-color:#ffd400 !important}
-.searchInput{width:100%;height:60px;padding:15px 0;border-bottom:1px solid #979797;border-radius:0;font-size:16px;color:#333;line-height:30px;text-align:left;box-sizing:border-box;appearance:none;-webkit-appearance:none}
-.counselInput{width:100%;height:60px;padding:15px 0;border-bottom:1px solid #979797;border-radius:0;font-size:16px;color:#333;line-height:30px;text-align:left;box-sizing:border-box;appearance:none;-webkit-appearance:none}
-.counselInputCalendar{width:100%;height:60px;padding:15px 10px;border:1px solid #979797;border-radius:0;font-size:16px;color:#333;line-height:30px;text-align:left;box-sizing:border-box;appearance:none;-webkit-appearance:none;background:url(/images-v3/calendarBg.png) no-repeat 90% center;cursor:pointer}
-.surveyPInput{background:none;width:100%;height:60px;padding:15px 0;border-bottom:1px solid #979797;border-radius:0;font-size:16px;color:#333;line-height:30px;text-align:left;box-sizing:border-box;appearance:none;-webkit-appearance:none}
-.surveyInput{width:100%;height:45px;padding:0 0 15px;border-bottom:1px solid #979797;border-radius:0;font-size:16px;color:#333;line-height:30px;text-align:left;box-sizing:border-box;appearance:none;-webkit-appearance:none}
-.certNum{position:absolute;bottom:11px;right:0;display:block;width:102px;height:40px;background:#f7f7f7;border:1px solid #e7e7e7;font-size:14px;line-height:38px;text-align:center;color:#67666b;cursor:pointer}
-.certNum.active{background:#f8f5ff;border-color:#6131ce;color:#6131ce}
-.certNumTime{position:absolute;right:0;color:#999999}
-.certNumTime2{position:absolute;right:120px;;top:50%;margin-top:-12px;color:#999999}
-.clear:after{display:block;clear:both;content:''}
-
-.pagination{display:block;margin:0 auto 100px;text-align:center;border-collapse:collapse;font-size:0}
-.pagination a{margin-left:-1px;display:inline-block;border:1px solid #ccc;font-family:'Roboto';font-size:12px;font-weight:bold;color:#353535;padding:11px 13px;color:;box-sizing:border-box}
-.pagination a:first-of-type{margin-left:0}
-.pagination a.active{position:relative;}
-.pagination a.active::before{position:absolute;top:-1px;left:0;right:0;width:100%;height:2px;background:#6131ce;content:''}
-.pagination a:hover:not(.active){position:relative;}
-.pagination a:hover:not(.active)::before{position:absolute;top:-1px;left:0;right:0;width:100%;height:2px;background:#a18ecc;content:''}
-
+/* search 상단탭 */
 .search_tab li{width:25%}
 .search_tab li:first-of-type{width:25%}
 /*예약하기 - 청소정보 입력*/
@@ -190,7 +168,7 @@
 .search_team li .right .teamCareer .year{padding-left:23px;font-size:14px;line-height:16px;color:#555;background:url(/images-v3/teamIcon_01.png) no-repeat left center}
 .search_team li .right .teamCareer .count{margin-left:27px;padding-left:21px;font-size:14px;line-height:16px;color:#555;background:url(/images-v3/teamIcon_02.png) no-repeat left center}
 
-.teamReviewTitle{display:block;padding:0 0 10px 22px;font-size:14px;line-height:16px;color:#555;background:url(/images-v3/teamIcon_03.png) no-repeat left center}
+.teamReviewTitle{display:block;padding:0 0 10px 22px;font-size:14px;line-height:16px;color:#555;background:url(/images-v3/teamIcon_03.png) no-repeat left top}
 .teamReviewSlider{position:relative;}
 .teamReviewSlider li{margin:0 auto;padding:0 10px;width:498px;font-size:14px;line-height:30px;color:#333;letter-spacing:-0.1px;text-align:center;border:0;border-radius:20px;background:#f1f1f1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .teamReviewSlider .owl-controls{position:absolute;top:0;left:0;right:0;bottom:0}
@@ -437,7 +415,7 @@ a.priceSubmit{display:block;margin:60px auto;width:180px;text-align:center;font-
 .faqList dt ul::after{display:block;clear:both;content:''}
 .faqList dt ul li{float:left;text-align:left;padding:0 30px;font-size:18px;line-height:78px;letter-spacing:-0.3px;color:#353535;background:#fff;border:1px solid #ebebeb}
 .faqList dt ul li:first-of-type{padding:0;text-align:center;font-family:'Roboto';font-style:italic;font-size:20px;line-height:80px;color:#fff;background:#6131ce;border:0}
-.faqList dt ul li:last-of-type{width:calc(100% - 141px);border-left:0}
+.faqList dt ul li:last-of-type{width:calc(100% - 141px);border-left:0;cursor:pointer;}
 .faqList dd{display:none;padding:40px 109px;font-size:16px;line-height:32px;letter-spacing:-0.3px;color:#535353;background:#fff;border:1px solid #ebebeb;word-break:keep-all;}
 
 /* 예약확인 - 휴대폰인증 */
