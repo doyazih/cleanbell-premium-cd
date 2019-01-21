@@ -7,9 +7,9 @@
   #gnb li{float:left;margin-left:0 !important;padding:0;width:50%;background:none}
   #gnb li a{font-size:14px;line-height:45px;}
   #gnb li a:hover{position:relative;}
-  #gnb li a:hover::after{position:absolute;bottom:0;left:0;width:100%;height:3px;background:#6131ce;content:''}
+  #gnb li a:hover::after{position:absolute;bottom:0;left:0;width:100%;height:3px;background:#6131ce;content:'';/*190108*/bottom:-1px}
 
-  #header .cleanbell-dropmenu{top:45px}
+  #header .cleanbell-dropmenu{top:45px;/*190108*/top:47px}
   #header .cleanbell-dropmenu::after{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(0,0,0,0.7)}
   #header .cleanbell-dropmenu ul{height:135px}
   #header .cleanbell-dropmenu ul li{position:relative;float:left;width:50%;padding:0}
@@ -21,7 +21,7 @@
   #header .cleanbell-dropmenu ul li:last-child::before{position:absolute;top:0;left:0;right:0;width:100%;height:1px;background:#464646;content:''}
   #header .cleanbell-dropmenu ul li.dropwidth100{width:100%}
 
-  #header .premium-dropmenu{top:45px}
+  #header .premium-dropmenu{top:45px;/*190108*/top:47px}
   #header .premium-dropmenu ul{height:90px}
   #header .premium-dropmenu ul li{position:relative;float:left;width:50%;padding:0}
   #header .premium-dropmenu ul li a{font-size:13px;line-height:45px}
@@ -220,4 +220,306 @@
   .premium_banner dt{font-size:12px;line-height:22px}
   .premium_banner dd{font-size:18px;line-height:24px}
   .premium_banner .premiumBanBtn input{width:115px;height:40px;font-size:13px;line-height:40px}
+
+  /* 190108 추가 - 서브 모바일 버전*/
+  /* 예약하기-날짜선택 */
+  #gnb li a{color:#000}
+  .search_tab li{width:50%;background:#fff;font-weight:500}
+  .search_tab li:first-of-type{width:50%;}
+  .search_tab li:nth-of-type(3){border-left:1px solid #e3e3e3}
+  .search_tab li.pass:nth-of-type(3){border-left:1px solid #bcaddd}
+  .search_info h2{font-weight:500}
+  .search_info .left h2 strong{font-weight:500}
+  .search_info .right h2 strong{font-weight:500}
+  .cleaning_tip ul li{margin-bottom:21px}
+  .cleaning_tip ul li:last-of-type{margin-bottom:0}
+  .cleaning_tip ul li::before{top:10px}
+  .cleaning_tip ul li.theight::before{top:10px}
+
+  /* 예약하기-청소정보입력 */
+  .search_structure{margin-top:36px;padding:0}
+  .search_structure select{height:45px;padding:5px 10px;font-size:14px;line-height:35px}
+  .search_structure dl dt{margin-bottom:17px;font-size:17px;line-height:25px}
+  .search_structure .first{width:100%;margin-bottom:29px}
+  .search_structure .first dd{width:100%}
+  .search_structure .second{width:100%;margin-bottom:40px}
+  .search_structure .autoText{padding:24px 0}
+  .search_structure .autoText p{padding:10px 25px 0}
+  .search_structure .autoText p .textblock{display:inline !important}
+  .checkModal{padding:0 20px;width:calc(100% - 40px)}
+  .checkModal .modalContent{left:inherit;margin:10% auto 0;width:calc(100% - 80px);padding:0 40px 39px;word-break:keep-all;}
+  .checkModal .modalContent img{width:50px}
+  .checkModal .modalContent p{padding:4px 0;font-size:12px;line-height:19px}
+  .checkModal .modalContent a{width:140px;height:40px;font-size:13px;line-height:40px;}
+
+  /* 예약하기-청소정보입력-아파트 */
+  .search_apartment{padding:0;margin-top:36px}
+  .search_apartment dl dt{margin-bottom:17px;font-size:17px;line-height:25px}
+  .search_apartment select{height:45px;padding:5px 10px;font-size:14px;line-height:35px}
+  .search_apartment .first{width:100%}
+  .search_apartment .first dd:first-of-type{width:calc(100% - 132px)}
+  .search_apartment .first dd:last-of-type{margin-left:15px;width:117px}
+  .search_apartment .second{float:right;width:70%;margin-top:21px}
+  .structure_detail ul li dl dt{line-height:45px}
+  .check_structure{padding:0;margin-top:36px}
+  .check_structure dl dt{margin-bottom:0;font-size:17px;line-height:25px}
+  .check_structure .first{width:100%}
+  .check_structure .first dd{padding:17px 0}
+  .check_structure .first dd input[type="checkbox"] + label{float:left;margin-left:0;width:calc(50% - 27px);font-size:14px;line-height:50px;padding-left:27px;background-size:20px}
+  .check_addService{padding:0;margin-top:25px}
+  .check_addService dl dt{margin-bottom:0;font-size:17px;line-height:25px}
+  .check_addService .first{width:100%}
+  .check_addService .first dd input[type="checkbox"] + label{float:left;margin-left:0;width:calc(60% - 27px);font-size:14px;line-height:50px;padding-left:27px;background-size:20px}
+  .check_addService .first dd input[type="checkbox"] + label:last-of-type{width:calc(40% - 27px)}
+  .check_addService .second ul{padding:24px;font-size:0}
+  .check_addService .second ul li{position:relative;width:100%}
+  .check_addService .second ul li::after{display:block;clear:both;content:''}
+  .check_addService .second ul li label{width:80px;height:21px;font-size:13px;line-height:19px}
+  .check_addService .second ul li input{float:right;margin-right:13px;text-align:right;font-size:15px;line-height:23px}
+  .check_addService .second ul li span{position:absolute;right:0;margin:0;font-size:13px;line-height:21px}
+  .check_addService .second ul li:last-of-type{margin-top:10px;position:relative;top:inherit;right:inherit;}
+  .check_addService .second ul li:last-of-type label{display:inline-block;margin:0;width:80px;height:23px;font-size:13px;line-height:21px}
+  .check_addService .second ul li:last-of-type input{padding-left:21px;width:80px;font-size:21px;line-height:23px;background-size:17px}
+  .check_addService .second ul li:last-of-type span{margin:0;font-size:13px;line-height:21px}
+
+  /* 예약하기-개인정보입력 */
+  .certNum{bottom:6px;width:90px;height:35px;font-size:13px;line-height:33px}
+  .search_personal{padding:0;margin-top:36px}
+  .search_personal dl dt{margin-bottom:0;font-size:17px;line-height:25px}
+  .searchInput{height:45px;padding:5px 0;line-height:35px;font-size:13px}
+  .search_personal .first{width:100%}
+  .search_personal .first dd{width:100%}
+  .search_personal .second{width:100%}
+  .check_policy{padding:0}
+  .check_policy dl dt{margin-bottom:0;font-size:17px;line-height:25px}
+  .check_policy .first{width:100%}
+  .check_policy .first dd{padding:17px 0}
+  .check_policy .first dd input[type="checkbox"] + label{background-position:left 5px;font-size:14px;line-height:20px}
+  .check_policy .first dd input[type="checkbox"] + label:first-of-type{margin-bottom:10px}
+  .check_policy .first dd label a{font-size:14px;line-height:20px}
+  .check_policy .second ul{padding:24px;font-size:0}
+  .check_policy .second ul li{position:relative;width:100%}
+  .check_policy .second ul li::after{display:block;clear:both;content:''}
+  .check_policy .second ul li label{width:80px;height:21px;font-size:13px;line-height:19px}
+  .check_policy .second ul li input{float:right;margin-right:13px;text-align:right;font-size:15px;line-height:23px}
+  .check_policy .second ul li span{position:absolute;right:0;margin:0;font-size:13px;line-height:21px}
+  .check_policy .second ul li:last-of-type{margin-top:10px;position:relative;top:inherit;right:inherit;}
+  .check_policy .second ul li:last-of-type label{display:inline-block;margin:0;width:80px;height:23px;font-size:13px;line-height:21px}
+  .check_policy .second ul li:last-of-type input{padding-left:21px;width:80px;font-size:21px;line-height:23px;background-size:17px}
+  .check_policy .second ul li:last-of-type span{margin:0;font-size:13px;line-height:21px}
+
+  /* 예약하기-팀선택 */
+  .search_percent{padding:0;margin-top:20px}
+  .search_percent p{font-size:13px;padding-bottom:50px}
+  .search_percent p .textpercent{font-size:19px;font-style:italic;}
+  .search_percent .percent .bar{height:20px}
+  .search_percent .percent .bar i::after{top:-27px;right:-28px;background-size:60px}
+  .search_team{padding:0;margin-top:20px}
+  .search_team h4{font-size:15px;line-height:25px;font-weight:500}
+  .search_team li{padding:12px 12px 75px}
+  .search_team li .left{width:100px;height:100px}
+  .search_team li .left img{width:100px}
+  .search_team li .right{width:calc(100% - 112px);padding:0 0 0 12px}
+
+  .checkTeam + label{top:22px;left:22px;width:25px;height:25px}
+  .checkTeam:checked + label{background-size:25px}
+  .search_team li .right .teamTitle{margin-top:5px;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;line-height:15px}
+  .search_team li .right .teamName{font-size:17px;line-height:22px;margin:5px 0 12px}
+  .search_team li .right .teamCareer{padding-bottom:0}
+  .search_team li .right .teamCareer .year{font-size:12px;line-height:14px;background-size:14px}
+  .search_team li .right .teamCareer .count{margin:0;font-size:12px;line-height:14px;background-size:14px}
+  .search_team li .right .teamCareer div span{font-size:12px;line-height:14px}
+  .search_team li .right .teamReview{position:absolute;left:12px;right:12px;bottom:14px}
+  .search_team li .right .teamReview .teamReviewSlider li{width:calc(100% - 60px);padding:0 10px;font-size:12px;line-height:30px}
+  .teamReviewTitle{padding:0 0 5px 16px;background-size:14px;font-size:12px;line-height:14px}
+
+  .search_team li span.teamOut{top:22px;left:22px;width:80px;height:80px;background-size:cover}
+  .search_team li .out{opacity:0.8}
+  .search_team li .inner.out{position:relative;}
+  .search_team li .inner.out::after{display:block;clear:both;content:''}
+  .search_team li .inner.out .right .teamReview{position:absolute;left:0;right:0;top:118px;bottom:inherit;}
+
+  /* 예약하기-예약완료 */
+  .search_result{margin:18px auto 0;padding:20px 20px 0}
+  .search_result img{width:200px;margin-bottom:17px}
+  .search_result h3{margin-bottom:15px;font-size:20px;line-height:30px;font-weight:500}
+  .search_result p{font-size:12px;line-height:19px}
+  .search_result p:first-of-type{font-weight:500}
+  .search_result a{margin-top:20px;width:140px;line-height:40px;font-size:13px}
+
+  /* 상담요청 */
+  .counsel{padding:30px 0}
+  .counsel h3{font-size:18px;line-height:30px}
+  .counsel p{font-size:12px;line-height:35px}
+  .counselBg{margin-top:27px;padding:20px}
+  .counselBg img{width:165px;margin-top:20px}
+  .counsel_personal{margin-top:36px}
+  .counsel_personal dl dt{margin-bottom:0;font-size:17px;line-height:25px}
+  .counselInput{height:45px;padding:5px 0;line-height:35px;font-size:13px}
+  .counsel_personal.counselNumber .second:first-of-type{width:100%}
+  .counsel_personal.counselNumber .second:last-of-type{margin:0;width:100%}
+  .certNumTime{right:95px;bottom:50%;margin-bottom:-9px;font-size:12px}
+  .counsel_personal.counselCalendar{width:100%}
+  .counsel_personal.counselCalendar dl dt{margin-bottom:10px}
+  .counselInputCalendar{height:45px;padding:5px;line-height:35px;font-size:13px;background-position:95% center}
+  .counsel_personal select{height:45px;padding:5px;line-height:35px;font-size:13px;}
+  .counsel_personal.counselStruct dl dt{margin-bottom:10px}
+  .counsel_personal.counselAverage dl dt{margin-bottom:10px}
+  .counsel_personal.counselTime{width:100%}
+  .counsel_personal.counselTime dl dt{margin-bottom:10px}
+  .counsel_personal.counselAddress .first{width:100%}
+  .counsel_personal.counselAddress dl dt{margin-bottom:10px}
+  .counsel_personal.counselAddress dl.third dd{padding-top:10px;float:inherit;width:100%;}
+  .counsel_personal.counselAddress dl.third dd:first-of-type{margin-right:0}
+  .counsel_personal.counselAddress dl.third dd:last-of-type{margin-left:0}
+  .counsel_personal.counselOther dl dt{margin-bottom:10px}
+  .counselSubmit{margin:45px auto 30px;width:100%;height:45px;line-height:45px;font-size:14px}
+
+  .thanksModal{padding:0 20px;width:calc(100% - 40px)}
+  .thanksModal .modalContent{left:inherit;margin:10% auto 0;width:calc(100% - 80px);padding:0 20px 30px;word-break:keep-all;}
+  .thanksModal .modalContent h4{margin:30px auto 10px;font-size:23px;line-height:33px}
+  .thanksModal .modalContent p{font-size:14px;line-height:22px}
+  .thanksModal .modalContent a{width:100%;height:40px;margin:100px auto 0;font-size:13px;line-height:40px}
+  .thanksModal .modalContent a::after{top:-87px;left:50%;margin-left:-68px;width:136px;background-size:136px}
+
+  /* 고객만족도조사-메인 */
+  .survey{padding:30px 0}
+  .surveyBg{margin-top:27px;padding:20px 20px 50px}
+  .surveyBg img{margin-top:35px;width:132px}
+  .surveyBg h3{width:100%;padding:11px 0 30px;font-size:20px;line-height:20px}
+  .surveyBg p{padding:0;font-size:13px;line-height:23px;word-break:keep-all;}
+  .surveyBg a.surveyIn{margin:16px auto;border:2px solid;width:calc(100% - 40px);line-height:39px;font-size:14px}
+
+  /* 고객만족도조사-설문지 */
+  .survey h3{font-size:18px;line-height:36px;word-break:keep-all;}
+  .survey p{font-size:12px;line-height:18px}
+  .survey_Personal{padding:20px}
+  .survey_Personal dl{margin-bottom:25px}
+  .survey_Personal dl:first-of-type{width:calc(50% - 10px);margin-right:10px}
+  .survey_Personal dl:nth-of-type(2){width:calc(50% - 10px);margin-left:10px}
+  .survey_Personal dl:nth-of-type(3){width:100%;margin-right:0;margin-bottom:25px}
+  .survey_Personal dl:last-of-type{width:100%;margin-left:0}
+  .survey_Personal dl dt{font-size:11px;line-height:20px}
+  .survey_Personal dl dt.surveyName{width:45px}
+  .survey_Personal dl dt.surveyDate{width:55px}
+  .survey_Personal dl dt.surveyAddress{width:35px}
+  .survey_Personal dl dt.surveyStruct{width:45px}
+  .surveyPInput{height:45px;padding:5px;line-height:35px;font-size:13px;}
+
+  .check_survey{padding:0}
+  .check_survey dl{margin-top:25px;font-size:0}
+  .check_survey dl dt{margin-bottom:10px;font-size:16px;line-height:25px;white-space:inherit;}
+  .check_survey dl:nth-of-type(4) dt span.colorPurple{display:block;}
+  .check_survey dd{padding-bottom:0}
+  .check_survey dd input[type="checkbox"] + label{width:calc(33.33% - 27px);margin-left:0;margin-bottom:15px;font-size:14px;line-height:20px;padding-left:27px;background-size:20px;white-space:nowrap;}
+  .check_survey .agreeSurvey dd{padding-bottom:30px}
+  .check_survey .agreeSurvey dd input[type="checkbox"] + label{width:calc(100% - 22px);white-space:inherit;background-position:left 4px;font-size:14px;line-height:20px}
+  .check_survey .agreeSurvey dd input[type="checkbox"]:checked + label{background-position:left 4px}
+
+  .surveySubmit{width:100%;line-height:45px;font-size:14px}
+
+  /* 190109 추가 */
+  /* 고객 후기 */
+  .subpageBg{padding:45px 0 39px;background-position:70% top}
+  .subpageBg h5{font-size:20px;line-height:45px;width:130px}
+  .subpageBg h5::before{top:-17px;left:22px;width:27px;height:17px;background-size:27px}
+  .subpageBg p{padding:10px 50px;word-break:keep-all;font-size:15px;line-height:22px;font-weight:300}
+  #pReview{margin:30px 0 20px}
+  .reviewList dl.listTop{border:0}
+  .reviewList dl > ul{display:none}
+  .reviewList dl ul{position:relative;padding-left:2%}
+  .reviewList dl ul li{padding:0 0 40px;font-size:11px;line-height:40px;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .reviewList dl ul li.width89{width:auto;padding:0 2px 40px}
+  .reviewList dl ul li.width120{width:auto;position:absolute;right:2%}
+  .reviewList dl ul li.width210{width:110px;padding:0 2px 40px}
+  .reviewList dl ul li.width410{position:absolute;width:96%;left:2%;right:2%;bottom:0;padding-bottom:0;font-size:14px}
+  .reviewList dl ul li.width410 span{width:100%;padding:0;line-height:40px}
+  .reviewList dl dt.active ul li.width410{font-size:15px}
+  .reviewList dl dt.active ul li.width410 span::after{bottom:-2px}
+  .reviewList dl ul li.width109{width:70px;padding:0 2px 40px}
+  .reviewList dl dd{padding:24px 35px;font-size:12px;line-height:20px}
+  .reviewList dl dd::before{top:15px;left:15px;background-size:15px}
+  .reviewList dl dd::after{bottom:15px;right:15px;background-size:15px}
+  .pagination{margin-bottom:50px}
+
+  /* 가격표 */
+  .price{padding:40px 0}
+  .price h3{width:100%;padding:15px 0;font-size:18px;line-height:18px;font-weight:400}
+  .price h3::before{display:none;top:-17px;left:22px;width:27px;height:17px;background-size:27px}
+  .price h3 span{font-weight:500}
+  .priceService{margin:40px 0 0}
+  .priceClean{width:100%;}
+  .priceClean h4, .priceAdd h4{margin:20px 25px 0;padding-bottom:20px;font-size:19px;line-height:19px;}
+  .priceClean dl.first{padding:0 25px}
+  .priceClean dl.first dt{margin-bottom:20px;font-size:17px;line-height:25px;}
+  .priceClean dl.first dd select{height:45px;padding:5px;font-size:14px;line-height:35px}
+  .priceClean dd.second ul li dl dt{font-size:14px;line-height:45px}
+  .priceClean dd.third .relative:first-of-type{width:calc(100% - 115px)}
+  .priceClean dd.third .relative:last-of-type{width:100px;margin-left:15px}
+  .priceCleanBottom{padding:21px 25px;width:calc(100% - 50px)}
+  .priceCleanBottom dt{width:100px;font-size:16px;line-height:26px;}
+  .priceCleanBottom dd{right:26px;margin-top:-15px;font-size:22px;line-height:28px}
+  .priceCleanBottom dd span{font-size:13px;line-height:28px}
+
+  .priceAdd{width:100%;float:left;margin:35px 0 0}
+  .priceAdd dl.first{padding:0 25px;height:130px}
+  .priceAdd dl.first::before{display:none}
+  .priceAdd dl.first::after{position:inherit}
+  .priceAdd dl.first dt{display:none}
+  .priceAdd dl.first dd{padding-top:30px}
+  .priceAdd dl.first dd input[type="checkbox"] + label{margin-left:0;padding-left:27px;font-size:14px;line-height:20px;background-size:20px;color:#999}
+  .priceAdd dl.first dd input[type="checkbox"] + label:last-of-type{display:block;margin-top:20px}
+  .priceAdd dl.first dd input[type="checkbox"]:checked + label{color:#333;background-size:20px}
+
+  .priceBottom{margin:20px 0 25px;padding:25px;width:calc(100% - 50px);height:auto;}
+  .priceBottom dl{position:relative;margin:0}
+  .priceBottom dt{width:80px;font-size:12px;line-height:21px;}
+  .priceBottom dd{position:absolute;top:50%;right:0;margin-top:-13px;font-size:20px;line-height:23px}
+  .priceBottom dd span{font-size:13px;line-height:23px}
+  .priceBottom dl.bot01{left:0}
+  .priceBottom dl.bot01 dd::after{display:none}
+  .priceBottom dl.bot02{left:0;margin-top:10px}
+  .priceBottom dl.bot02 dd::after{display:none}
+  .priceBottom dl.bot03{left:0;margin-top:20px}
+  .priceBottom dl.bot03 dt{margin-left:0;width:80px;}
+  .priceBottom dl.bot03 dd{padding-left:22px}
+  .priceBottom dl.bot03 dd::before{top:50%;margin-top:-9px;width:17px;height:17px;background-size:17px}
+  a.priceSubmit{margin:0 auto;width:calc(100% - 40px);font-size:14px;line-height:45px;font-weight:300}
+
+  /* 고객센터 */
+  .subpageBg.cscenterBg{padding:45px 0 68px;background-size:cover}
+  .subpageBg ul{margin-left:-115px}
+  .subpageBg ul li{width:110px;font-size:13px;line-height:42px}
+  .pFaqTop{height:205px}
+  .pFaqTop::after{bottom:-50px;margin-left:-140px;width:280px;height:80px;background:url(/images-v3/pFaqTopDownM.png) no-repeat;background-size:cover}
+  .pFaqTopUp{width:100%;padding-top:28px}
+  .pFaqTopUp dt{display:block;margin-left:0;text-align:center;}
+  .pFaqTopUp dt img{width:88px}
+  .pFaqTopUp dd{display:block;margin:16px auto 20px;font-size:14px;line-height:22px;font-weight:300}
+
+  .faqList{margin:75px auto 0;padding-bottom:50px}
+  .faqList h6{font-size:18px;line-height:18px}
+  .faqList dl{margin-bottom:10px}
+  .faqList dt ul li:first-of-type{font-size:13px;line-height:60px}
+  li.width80{width:40px}
+  .faqList dt ul li:last-of-type{width:calc(100% - 81px);padding:0 20px;font-size:12px;line-height:58px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .faqList dt.toggleFaq ul li:last-of-type::after{right:5%;width:9px;height:5px;margin-top:-3px;background-size:9px}
+  .faqList dt.toggleFaq.active ul li:last-of-type{border-top-color:#6131ce}
+  .faqList dt.toggleFaq.active ul li:last-of-type::after{right:5%;width:9px;height:5px;margin-top:-3px;background-size:9px}
+  .faqList dd{padding:20px;font-size:11px;line-height:18px}
+
+  /* 고객센터-예약확인 */
+  .pFaqTopUp{padding:28px 20px 0;width:calc(100% - 40px)}
+  .pFaqTopUp h6{font-size:18px;line-height:42px;}
+  .pFaqTopUp p{font-size:12px;line-height:18px;padding:0 40px;word-break:keep-all;}
+  .reserveListCheck{margin:-71px auto 0;width:calc(100% - 50px);padding:40px 25px}
+  .reserveListCheck dl dt{font-size:17px;line-height:25px;}
+  .reserveListCheck dl dd .certNum{top:51px;bottom:inherit;}
+  .reserveListCheck dl dd .certNumTime2{top:51px;margin-top:5px;right:95px}
+
+  /* 고객센터-예약확인-예약내역 */
+  .reserveListDetail{margin:32px auto 25px}
+  .reserveListDetail dl{font-size:12px;}
+  .reserveListDetail dl dt{width:80px;padding:10px 0;line-height:22px}
+  .reserveListDetail dl dd{width:calc(100% - 98px);padding:10px 10px 10px 5px;line-height:22px;word-break:keep-all;}
 }
