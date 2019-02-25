@@ -1,5 +1,17 @@
 
 $(function () {
+	$('.showDropmenu').on('click',function(){
+		if($('.premium-dropmenu').hasClass('hover')){
+			$('.premium-dropmenu').removeClass('hover');
+		} else {
+			$('.premium-dropmenu').addClass('hover');
+
+		}
+	})
+	$('.premium-dropmenu').on('mouseleave',function(){
+		$(this).removeClass('hover');
+	})
+
   //청소업체 검색
   $('.cleanbellDrop').hover(function(){
     $('.cleanbellDrop > a').addClass("before");
@@ -19,15 +31,15 @@ $(function () {
     $('.premium-dropmenu').removeClass("hover");
   });
   //gnb icon hover
-  $('.showDropmenu').hover(function(){
-    $('.showDropmenu').addClass("imgChange");
-    $('.premiumDrop > a').addClass("before");
-    $('.premium-dropmenu').addClass("hover");
-  }, function(){
-    $('.showDropmenu').removeClass("imgChange");
-    $('.premiumDrop > a').removeClass("before");
-    $('.premium-dropmenu').removeClass("hover");
-  });
+  // $('.showDropmenu').hover(function(){
+  //   $('.showDropmenu').addClass("imgChange");
+  //   $('.premiumDrop > a').addClass("before");
+  //   $('.premium-dropmenu').addClass("hover");
+  // }, function(){
+  //   $('.showDropmenu').removeClass("imgChange");
+  //   $('.premiumDrop > a').removeClass("before");
+  //   $('.premium-dropmenu').removeClass("hover");
+  // });
   //모바일 메인 - 가장 깨끗한 보금자리로 만드는 클린벨
   $('.nestSlider').owlCarousel({
     items: 1,

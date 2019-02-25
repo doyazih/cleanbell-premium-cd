@@ -282,6 +282,14 @@
   .check_addService .second ul li:last-of-type input{padding-left:21px;width:80px;font-size:21px;line-height:23px;background-size:17px}
   .check_addService .second ul li:last-of-type span{margin:0;font-size:13px;line-height:21px}
 
+  .check_addService .second ul li:last-of-type label
+{position:relative;}
+.check_addService .second ul li:last-of-type input
+{position:relative;top:0;right:12px;width:150px;}
+.check_addService .second ul li:last-of-type span
+{top:0;}
+
+
   /* 예약하기-개인정보입력 */
   .certNum{bottom:6px;width:90px;height:35px;font-size:13px;line-height:33px}
   .search_personal{padding:0;margin-top:36px}
