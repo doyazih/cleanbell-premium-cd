@@ -30,16 +30,6 @@ $(function () {
     $('.premiumDrop > a').removeClass("before");
     $('.premium-dropmenu').removeClass("hover");
   });
-  //gnb icon hover
-  // $('.showDropmenu').hover(function(){
-  //   $('.showDropmenu').addClass("imgChange");
-  //   $('.premiumDrop > a').addClass("before");
-  //   $('.premium-dropmenu').addClass("hover");
-  // }, function(){
-  //   $('.showDropmenu').removeClass("imgChange");
-  //   $('.premiumDrop > a').removeClass("before");
-  //   $('.premium-dropmenu').removeClass("hover");
-  // });
   //모바일 메인 - 가장 깨끗한 보금자리로 만드는 클린벨
   $('.nestSlider').owlCarousel({
     items: 1,
@@ -103,23 +93,27 @@ $(function () {
       $('#' + $(this).val()).show();
   });
 
-  //$(".premiumModal").attr('style','display:none');
-  $(".premiumModal").hide();
-  //openModal - 청소하는 범위
-  $("#detailCleanRange").click(function(){
-    $("#cleanRange").show();
-  });
+	//메인 모달관련
+	$('#detailCleanRange').on('click',function(){
+		if($('#cleanRange').hasClass('none')){
+			$('#cleanRange').removeClass('none');
+		};
+
+	});
+	$('#detailCleanNotice').on('click',function(){
+		if($('#cleanNotice').hasClass('none')){
+			$('#cleanNotice').removeClass('none');
+		}
+	});
+
   //closeModal - 청소하는 범위
   $("#closeRangeModal").click(function(){
-    $("#cleanRange").hide();
+    $("#cleanRange").addClass('none');
   });
-  //openModal - 청소 전 안내사항
-  $("#detailCleanNotice").click(function(){
-    $("#cleanNotice").show();
-  });
+
   //closeModal - 청소 전 안내사항
   $("#closeNoticeModal").click(function(){
-    $("#cleanNotice").hide();
+    $("#cleanNotice").addClass('none');
   });
 
   $(".checkModal").attr('style','display:none');

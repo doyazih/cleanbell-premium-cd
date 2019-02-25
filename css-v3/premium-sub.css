@@ -56,15 +56,15 @@
 .check_structure {padding:0 30px; margin-top:70px;border-bottom:1px solid #ebebeb }
 .check_structure:after {clear:both; content:''; display:block;}
 .check_structure dl {width:420px; float:left;}
-.check_structure .first {width:50%;float:left;}
+.check_structure .first {width:100%;float:left;}
 .check_structure dl dt {margin-bottom:30px; font-size:26px; color:#000; line-height:36px; font-weight:bold;}
 .check_structure dl dd {width:100%; float:left;}
 .check_structure dl dd:after {clear:both; content:''; display:block;}
 .check_structure .first dd{position:relative;float:left;padding:13px 0 40px}
 .check_structure .first dd input[type="checkbox"]{position:absolute;top:0;left:0;width:0;height:0;font-size:0;content:''}
 .check_structure .first dd input[type="checkbox"] + label:first-of-type{margin-left:0}
-.check_structure .first dd input[type="checkbox"] + label{margin-left:39px;padding-left:32px;display:inline-block;font-size:16px;line-height:24px;color:#333;background:url(/images-v3/structureCheckOff.png) no-repeat left center}
-.check_structure .first dd input[type="checkbox"]:checked + label{background:url(/images-v3/structureCheckOn.png) no-repeat left center}
+.check_structure .first dd input[type="checkbox"] + label{margin-left:39px;padding-left:32px;display:inline-block;font-size:16px;line-height:24px;color:#333;background:url(../images-v3/structureCheckOff.png) no-repeat left center}
+.check_structure .first dd input[type="checkbox"]:checked + label{background:url(../images-v3/structureCheckOn.png) no-repeat left center}
 
 .check_addService{padding:0 30px; margin-top:40px}
 .check_addService:after {clear:both; content:''; display:block;}
@@ -76,8 +76,8 @@
 .check_addService .first dd{position:relative;float:left;padding:13px 0 40px}
 .check_addService .first dd input[type="checkbox"]{position:absolute;top:0;left:0;width:0;height:0;font-size:0;content:''}
 .check_addService .first dd input[type="checkbox"] + label:first-of-type{margin-left:0}
-.check_addService .first dd input[type="checkbox"] + label{margin-left:39px;padding-left:32px;display:inline-block;font-size:16px;line-height:24px;color:#333;background:url(/images-v3/structureCheckOff.png) no-repeat left center}
-.check_addService .first dd input[type="checkbox"]:checked + label{background:url(/images-v3/structureCheckOn.png) no-repeat left center}
+.check_addService .first dd input[type="checkbox"] + label{margin-left:39px;padding-left:32px;display:inline-block;font-size:16px;line-height:24px;color:#333;background:url(../images-v3/structureCheckOff.png) no-repeat left center}
+.check_addService .first dd input[type="checkbox"]:checked + label{background:url(../images-v3/structureCheckOn.png) no-repeat left center}
 .check_addService .second{position:relative;width:100%;background:#f5f5f5;border:1px solid #ebebeb;clear:both}
 .check_addService .second ul{padding:35px 49px}
 .check_addService .second ul li{display:block}

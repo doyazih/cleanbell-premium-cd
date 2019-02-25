@@ -283,3 +283,6 @@
 .premium_banner .premiumBanBtn input{width:180px;height:50px;font-size:16px;line-height:50px;text-align:center;border-radius:5px;-moz-box-shadow:4px 4px 8px 1px rgba(0,0,0,0.12);-webkit-box-shadow:4px 4px 8px 1px rgba(0,0,0,0.12);box-shadow:4px 4px 8px 1px rgba(0,0,0,0.12);cursor:pointer;}
 .premium_banner .premiumBanBtn input.bg_purple{color:#fff;background:#6131ce;margin-right:20px}
 .premium_banner .premiumBanBtn input.bg_white{color:#353535;background:#fff}
+
+/* 190220 */
+.none{visibility:hidden;}
